@@ -12,6 +12,11 @@
 		6739DC8623A92979008DB4C9 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8123A92979008DB4C9 /* Display.swift */; };
 		6739DC8723A92979008DB4C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8223A92979008DB4C9 /* main.swift */; };
 		6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */; };
+		CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746923AFBFDD0070930E /* BridgeMain.swift */; };
+		CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746C23AFCE2E0070930E /* Banner.swift */; };
+		CE1D746F23AFCF050070930E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746E23AFCF050070930E /* Print.swift */; };
+		CE1D747123AFCF2C0070930E /* PrintBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D747023AFCF2C0070930E /* PrintBanner.swift */; };
+		CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D747223AFCFC00070930E /* AdapterMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,12 +32,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6739DC7323A928EB008DB4C9 /* DPwithSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DPwithSwift; sourceTree = BUILT_PRODUCTS_DIR; };
+		6739DC7323A928EB008DB4C9 /* DesignPatternsInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatternsInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayImpl.swift; sourceTree = "<group>"; };
 		6739DC8023A92979008DB4C9 /* CountDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDisplay.swift; sourceTree = "<group>"; };
 		6739DC8123A92979008DB4C9 /* Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 		6739DC8223A92979008DB4C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringDisplayImpl.swift; sourceTree = "<group>"; };
+		CE1D746923AFBFDD0070930E /* BridgeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMain.swift; sourceTree = "<group>"; };
+		CE1D746C23AFCE2E0070930E /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		CE1D746E23AFCF050070930E /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		CE1D747023AFCF2C0070930E /* PrintBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintBanner.swift; sourceTree = "<group>"; };
+		CE1D747223AFCFC00070930E /* AdapterMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterMain.swift; sourceTree = "<group>"; };
+		CE1D747723AFD4940070930E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +60,7 @@
 		6739DC6A23A928EB008DB4C9 = {
 			isa = PBXGroup;
 			children = (
-				6739DC7523A928EB008DB4C9 /* DPwithSwift */,
+				6739DC7523A928EB008DB4C9 /* DesignPatternsInSwift */,
 				6739DC7423A928EB008DB4C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,17 +68,19 @@
 		6739DC7423A928EB008DB4C9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6739DC7323A928EB008DB4C9 /* DPwithSwift */,
+				6739DC7323A928EB008DB4C9 /* DesignPatternsInSwift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6739DC7523A928EB008DB4C9 /* DPwithSwift */ = {
+		6739DC7523A928EB008DB4C9 /* DesignPatternsInSwift */ = {
 			isa = PBXGroup;
 			children = (
+				6739DC8223A92979008DB4C9 /* main.swift */,
+				CE1D746B23AFCE240070930E /* Adapter */,
 				6739DC7E23A9295E008DB4C9 /* Bridge */,
 			);
-			path = DPwithSwift;
+			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
 		};
 		6739DC7E23A9295E008DB4C9 /* Bridge */ = {
@@ -77,17 +90,29 @@
 				6739DC8123A92979008DB4C9 /* Display.swift */,
 				6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */,
 				6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */,
-				6739DC8223A92979008DB4C9 /* main.swift */,
+				CE1D746923AFBFDD0070930E /* BridgeMain.swift */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		CE1D746B23AFCE240070930E /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				CE1D746C23AFCE2E0070930E /* Banner.swift */,
+				CE1D746E23AFCF050070930E /* Print.swift */,
+				CE1D747023AFCF2C0070930E /* PrintBanner.swift */,
+				CE1D747223AFCFC00070930E /* AdapterMain.swift */,
+				CE1D747723AFD4940070930E /* README.md */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6739DC7223A928EB008DB4C9 /* DPwithSwift */ = {
+		6739DC7223A928EB008DB4C9 /* DesignPatternsInSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6739DC7A23A928EB008DB4C9 /* Build configuration list for PBXNativeTarget "DPwithSwift" */;
+			buildConfigurationList = 6739DC7A23A928EB008DB4C9 /* Build configuration list for PBXNativeTarget "DesignPatternsInSwift" */;
 			buildPhases = (
 				6739DC6F23A928EB008DB4C9 /* Sources */,
 				6739DC7023A928EB008DB4C9 /* Frameworks */,
@@ -97,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = DPwithSwift;
+			name = DesignPatternsInSwift;
 			productName = DPwithSwift;
-			productReference = 6739DC7323A928EB008DB4C9 /* DPwithSwift */;
+			productReference = 6739DC7323A928EB008DB4C9 /* DesignPatternsInSwift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6739DC6E23A928EB008DB4C9 /* Build configuration list for PBXProject "DPwithSwift" */;
+			buildConfigurationList = 6739DC6E23A928EB008DB4C9 /* Build configuration list for PBXProject "DesignPatternsInSwift" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6739DC7223A928EB008DB4C9 /* DPwithSwift */,
+				6739DC7223A928EB008DB4C9 /* DesignPatternsInSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -142,9 +167,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
+				CE1D747123AFCF2C0070930E /* PrintBanner.swift in Sources */,
 				6739DC8623A92979008DB4C9 /* Display.swift in Sources */,
 				6739DC8723A92979008DB4C9 /* main.swift in Sources */,
+				CE1D746F23AFCF050070930E /* Print.swift in Sources */,
 				6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */,
+				CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */,
+				CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */,
+				CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */,
 				6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +329,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6739DC6E23A928EB008DB4C9 /* Build configuration list for PBXProject "DPwithSwift" */ = {
+		6739DC6E23A928EB008DB4C9 /* Build configuration list for PBXProject "DesignPatternsInSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6739DC7823A928EB008DB4C9 /* Debug */,
@@ -308,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6739DC7A23A928EB008DB4C9 /* Build configuration list for PBXNativeTarget "DPwithSwift" */ = {
+		6739DC7A23A928EB008DB4C9 /* Build configuration list for PBXNativeTarget "DesignPatternsInSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6739DC7B23A928EB008DB4C9 /* Debug */,

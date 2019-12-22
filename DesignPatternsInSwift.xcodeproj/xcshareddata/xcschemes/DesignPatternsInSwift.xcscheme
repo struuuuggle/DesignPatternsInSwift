@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6739DC7223A928EB008DB4C9"
-               BuildableName = "DPwithSwift"
-               BlueprintName = "DPwithSwift"
-               ReferencedContainer = "container:DPwithSwift.xcodeproj">
+               BuildableName = "DesignPatternsInSwift"
+               BlueprintName = "DesignPatternsInSwift"
+               ReferencedContainer = "container:DesignPatternsInSwift.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6739DC7223A928EB008DB4C9"
-            BuildableName = "DPwithSwift"
-            BlueprintName = "DPwithSwift"
-            ReferencedContainer = "container:DPwithSwift.xcodeproj">
+            BuildableName = "DesignPatternsInSwift"
+            BlueprintName = "DesignPatternsInSwift"
+            ReferencedContainer = "container:DesignPatternsInSwift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6739DC7223A928EB008DB4C9"
-            BuildableName = "DPwithSwift"
-            BlueprintName = "DPwithSwift"
-            ReferencedContainer = "container:DPwithSwift.xcodeproj">
+            BuildableName = "DesignPatternsInSwift"
+            BlueprintName = "DesignPatternsInSwift"
+            ReferencedContainer = "container:DesignPatternsInSwift.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DPwithSwift.xcodeproj">
+      location = "self:/Users/jupiter/Documents/iOS/DPwithSwift/DesignPatternsInSwift.xcodeproj">
    </FileRef>
 </Workspace>

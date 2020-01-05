@@ -8,6 +8,6 @@
 
 import Foundation
 
+TemplateMethodMain.main()
 //BridgeMain.main()
-
-AdapterMain.main()
+//AdapterMain.main()

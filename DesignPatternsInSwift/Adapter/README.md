@@ -12,4 +12,4 @@
 再利用する部品(Adaptee)の動作がテストや使用実績によって保証されていれば、バグが発生してもAdapterの部分を重点的にデバッグすれば良いので、コーディングが楽になる。
 
 ## 参考
-[SwiftUI-SearchBar](https://github.com/struuuuggle/SwiftUI-SearchBar)
+[SwiftUISearchBar](https://github.com/struuuuggle/SwiftUISearchBar)

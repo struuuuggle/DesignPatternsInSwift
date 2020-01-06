@@ -86,47 +86,47 @@
 			isa = PBXGroup;
 			children = (
 				6739DC8223A92979008DB4C9 /* main.swift */,
-				CE46D12823C231730059BF37 /* TemplateMethod */,
-				CE1D746B23AFCE240070930E /* Adapter */,
-				6739DC7E23A9295E008DB4C9 /* Bridge */,
+				CE1D746B23AFCE240070930E /* 02_Adapter */,
+				CE46D12823C231730059BF37 /* 03_TemplateMethod */,
+				6739DC7E23A9295E008DB4C9 /* 09_Bridge */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
 		};
-		6739DC7E23A9295E008DB4C9 /* Bridge */ = {
+		6739DC7E23A9295E008DB4C9 /* 09_Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D746923AFBFDD0070930E /* BridgeMain.swift */,
 				6739DC8023A92979008DB4C9 /* CountDisplay.swift */,
 				6739DC8123A92979008DB4C9 /* Display.swift */,
 				6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */,
 				6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */,
-				CE1D746923AFBFDD0070930E /* BridgeMain.swift */,
 			);
-			path = Bridge;
+			path = 09_Bridge;
 			sourceTree = "<group>";
 		};
-		CE1D746B23AFCE240070930E /* Adapter */ = {
+		CE1D746B23AFCE240070930E /* 02_Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				CE1D747723AFD4940070930E /* README.md */,
+				CE1D747223AFCFC00070930E /* AdapterMain.swift */,
 				CE1D746C23AFCE2E0070930E /* Banner.swift */,
 				CE1D746E23AFCF050070930E /* Print.swift */,
 				CE1D747023AFCF2C0070930E /* PrintBanner.swift */,
-				CE1D747223AFCFC00070930E /* AdapterMain.swift */,
-				CE1D747723AFD4940070930E /* README.md */,
 			);
-			path = Adapter;
+			path = 02_Adapter;
 			sourceTree = "<group>";
 		};
-		CE46D12823C231730059BF37 /* TemplateMethod */ = {
+		CE46D12823C231730059BF37 /* 03_TemplateMethod */ = {
 			isa = PBXGroup;
 			children = (
+				CE46D12923C231880059BF37 /* README.md */,
 				CE46D13023C2344E0059BF37 /* TemplateMethodMain.swift */,
 				CE46D12A23C232050059BF37 /* AbstractDisplay.swift */,
 				CE46D12C23C232670059BF37 /* CharDisplay.swift */,
 				CE46D12E23C233430059BF37 /* StringDisplay.swift */,
-				CE46D12923C231880059BF37 /* README.md */,
 			);
-			path = TemplateMethod;
+			path = 03_TemplateMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -57,7 +57,7 @@ struct MockBook: BookProtocol {
 ```
 
 
-```
+```swift
 struct Book: BookProtocol {
   let id: String
   let title: String

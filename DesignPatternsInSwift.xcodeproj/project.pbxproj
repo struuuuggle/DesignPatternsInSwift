@@ -21,11 +21,21 @@
 		CE46D12D23C232670059BF37 /* CharDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D12C23C232670059BF37 /* CharDisplay.swift */; };
 		CE46D12F23C233430059BF37 /* StringDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D12E23C233430059BF37 /* StringDisplay.swift */; };
 		CE46D13123C2344E0059BF37 /* TemplateMethodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D13023C2344E0059BF37 /* TemplateMethodMain.swift */; };
+		CE4942DA23DF2E8C0052086B /* ListTray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4942D923DF2E8C0052086B /* ListTray.swift */; };
+		CE4942DC23DF36280052086B /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4942DB23DF36280052086B /* ListPage.swift */; };
 		CE63D1BB23C3749900F908DB /* ProductProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1BA23C3749900F908DB /* ProductProtocol.swift */; };
 		CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1BC23C374C000F908DB /* FactoryProtocol.swift */; };
 		CE63D1BF23C3798D00F908DB /* IDCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1BE23C3798D00F908DB /* IDCard.swift */; };
 		CE63D1C123C37A2100F908DB /* IDCardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1C023C37A2100F908DB /* IDCardFactory.swift */; };
 		CE63D1C323C37C1400F908DB /* FactoryMethodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1C223C37C1400F908DB /* FactoryMethodMain.swift */; };
+		CE6B1DFB23DF07D300DA1401 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1DFA23DF07D300DA1401 /* Item.swift */; };
+		CE6B1DFD23DF088100DA1401 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1DFC23DF088100DA1401 /* Link.swift */; };
+		CE6B1DFF23DF090700DA1401 /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1DFE23DF090700DA1401 /* Tray.swift */; };
+		CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0023DF0A3100DA1401 /* Page.swift */; };
+		CE6B1E0323DF0DB700DA1401 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0223DF0DB700DA1401 /* Factory.swift */; };
+		CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0423DF184100DA1401 /* AbstractFactoryMain.swift */; };
+		CE6B1E0723DF21F500DA1401 /* ListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0623DF21F500DA1401 /* ListFactory.swift */; };
+		CE6B1E0923DF22B900DA1401 /* ListLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0823DF22B900DA1401 /* ListLink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,12 +68,23 @@
 		CE46D12C23C232670059BF37 /* CharDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharDisplay.swift; sourceTree = "<group>"; };
 		CE46D12E23C233430059BF37 /* StringDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDisplay.swift; sourceTree = "<group>"; };
 		CE46D13023C2344E0059BF37 /* TemplateMethodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodMain.swift; sourceTree = "<group>"; };
+		CE4942D923DF2E8C0052086B /* ListTray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTray.swift; sourceTree = "<group>"; };
+		CE4942DB23DF36280052086B /* ListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
 		CE63D1B923C3745200F908DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE63D1BA23C3749900F908DB /* ProductProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductProtocol.swift; sourceTree = "<group>"; };
 		CE63D1BC23C374C000F908DB /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
 		CE63D1BE23C3798D00F908DB /* IDCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCard.swift; sourceTree = "<group>"; };
 		CE63D1C023C37A2100F908DB /* IDCardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCardFactory.swift; sourceTree = "<group>"; };
 		CE63D1C223C37C1400F908DB /* FactoryMethodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodMain.swift; sourceTree = "<group>"; };
+		CE6B1DF723DF065600DA1401 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE6B1DFA23DF07D300DA1401 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		CE6B1DFC23DF088100DA1401 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
+		CE6B1DFE23DF090700DA1401 /* Tray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tray.swift; sourceTree = "<group>"; };
+		CE6B1E0023DF0A3100DA1401 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		CE6B1E0223DF0DB700DA1401 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		CE6B1E0423DF184100DA1401 /* AbstractFactoryMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryMain.swift; sourceTree = "<group>"; };
+		CE6B1E0623DF21F500DA1401 /* ListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFactory.swift; sourceTree = "<group>"; };
+		CE6B1E0823DF22B900DA1401 /* ListLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLink.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +121,7 @@
 				CE1D746B23AFCE240070930E /* 02_Adapter */,
 				CE46D12823C231730059BF37 /* 03_TemplateMethod */,
 				CE63D1B823C3742800F908DB /* 04_FactoryMethod */,
+				CE6B1DF623DF063E00DA1401 /* 08_AbstractFactory */,
 				6739DC7E23A9295E008DB4C9 /* 09_Bridge */,
 			);
 			path = DesignPatternsInSwift;
@@ -152,6 +174,40 @@
 				CE63D1C023C37A2100F908DB /* IDCardFactory.swift */,
 			);
 			path = 04_FactoryMethod;
+			sourceTree = "<group>";
+		};
+		CE6B1DF623DF063E00DA1401 /* 08_AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B1DF723DF065600DA1401 /* README.md */,
+				CE6B1E0423DF184100DA1401 /* AbstractFactoryMain.swift */,
+				CE6B1DF823DF07CA00DA1401 /* Factory */,
+				CE6B1DF923DF07CA00DA1401 /* ListFactory */,
+			);
+			path = 08_AbstractFactory;
+			sourceTree = "<group>";
+		};
+		CE6B1DF823DF07CA00DA1401 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B1DFA23DF07D300DA1401 /* Item.swift */,
+				CE6B1DFC23DF088100DA1401 /* Link.swift */,
+				CE6B1DFE23DF090700DA1401 /* Tray.swift */,
+				CE6B1E0023DF0A3100DA1401 /* Page.swift */,
+				CE6B1E0223DF0DB700DA1401 /* Factory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		CE6B1DF923DF07CA00DA1401 /* ListFactory */ = {
+			isa = PBXGroup;
+			children = (
+				CE6B1E0623DF21F500DA1401 /* ListFactory.swift */,
+				CE6B1E0823DF22B900DA1401 /* ListLink.swift */,
+				CE4942D923DF2E8C0052086B /* ListTray.swift */,
+				CE4942DB23DF36280052086B /* ListPage.swift */,
+			);
+			path = ListFactory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6B1DFB23DF07D300DA1401 /* Item.swift in Sources */,
+				CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */,
 				CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */,
 				CE46D12D23C232670059BF37 /* CharDisplay.swift in Sources */,
 				CE46D13123C2344E0059BF37 /* TemplateMethodMain.swift in Sources */,
@@ -220,18 +278,26 @@
 				CE46D12F23C233430059BF37 /* StringDisplay.swift in Sources */,
 				CE46D12B23C232050059BF37 /* AbstractDisplay.swift in Sources */,
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
+				CE6B1E0323DF0DB700DA1401 /* Factory.swift in Sources */,
 				CE63D1BF23C3798D00F908DB /* IDCard.swift in Sources */,
 				CE1D747123AFCF2C0070930E /* PrintBanner.swift in Sources */,
 				CE63D1C123C37A2100F908DB /* IDCardFactory.swift in Sources */,
+				CE4942DA23DF2E8C0052086B /* ListTray.swift in Sources */,
 				6739DC8623A92979008DB4C9 /* Display.swift in Sources */,
 				6739DC8723A92979008DB4C9 /* main.swift in Sources */,
 				CE1D746F23AFCF050070930E /* Print.swift in Sources */,
 				6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */,
+				CE6B1DFD23DF088100DA1401 /* Link.swift in Sources */,
+				CE4942DC23DF36280052086B /* ListPage.swift in Sources */,
 				CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */,
+				CE6B1E0923DF22B900DA1401 /* ListLink.swift in Sources */,
 				CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */,
+				CE6B1E0723DF21F500DA1401 /* ListFactory.swift in Sources */,
 				CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */,
+				CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */,
 				CE63D1C323C37C1400F908DB /* FactoryMethodMain.swift in Sources */,
 				6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */,
+				CE6B1DFF23DF090700DA1401 /* Tray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

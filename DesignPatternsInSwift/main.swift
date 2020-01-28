@@ -9,6 +9,7 @@
 import Foundation
 
 //TemplateMethodMain.main()
-FactoryMethodMain.main()
+//FactoryMethodMain.main()
+AbstractFactoryMain.main()
 //BridgeMain.main()
 //AdapterMain.main()

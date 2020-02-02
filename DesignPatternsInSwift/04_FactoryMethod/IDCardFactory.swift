@@ -9,11 +9,11 @@
 struct IDCardFactory: FactoryProtocol {
     var owners = [String]()
     
-    func createProduct(owner: String) -> Product {
+    func createProduct(owner: String) -> FactoryMethodProduct {
         return IDCard(owner: owner)
     }
     
-    mutating func registerProduct(product: Product) {
+    mutating func registerProduct(product: FactoryMethodProduct) {
         // Product型のproductをIDCard型にダウンキャスト
         self.owners.append((product as! IDCard).getOwner())
     }

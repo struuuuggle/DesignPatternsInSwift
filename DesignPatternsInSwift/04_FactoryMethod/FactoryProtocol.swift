@@ -7,12 +7,12 @@
 //
 
 protocol FactoryProtocol {
-    func createProduct(owner: String) -> Product
-    mutating func registerProduct(product: Product)
+    func createProduct(owner: String) -> FactoryMethodProduct
+    mutating func registerProduct(product: FactoryMethodProduct)
 }
 
 extension FactoryProtocol {
-    mutating func create(owner: String) -> Product {
+    mutating func create(owner: String) -> FactoryMethodProduct {
         let product = self.createProduct(owner: owner)
         self.registerProduct(product: product)
         return product

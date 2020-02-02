@@ -6,7 +6,7 @@
 //  Copyright © 2020 Mikiya Abe. All rights reserved.
 //
 
-struct IDCard: Product {
+struct IDCard: FactoryMethodProduct {
     let owner: String
     
     init(owner: String) {

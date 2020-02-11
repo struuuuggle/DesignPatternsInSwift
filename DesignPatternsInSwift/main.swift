@@ -11,6 +11,7 @@ import Foundation
 //TemplateMethodMain.main()
 //FactoryMethodMain.main()
 //AbstractFactoryMain.main(factoryCategory: .ListFactory)
-PrototypeMain.main()
+BuilderMain.main(builderType: .HtmlBuilder)
+//PrototypeMain.main()
 //BridgeMain.main()
 //AdapterMain.main()

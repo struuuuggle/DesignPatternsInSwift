@@ -7,11 +7,9 @@
 //
 
 struct AbstractFactoryMain {
-    var factory: Factory.Type
 
-    static func main(factory: Factory.Type) {
-        let className = "ListFactory"
-        let factory = factory.getFactory(className)!
+    static func main(factoryCategory: FactoryCategory) {
+        let factory = Factory.getFactory(from: factoryCategory)
         
         let asahi = factory.createLink(caption: "朝日新聞", url: "https://www.asahi.com")
         let yomiuri = factory.createLink(caption: "読売新聞", url: "https://www.yomiuri.co.jp")

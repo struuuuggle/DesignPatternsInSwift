@@ -10,7 +10,7 @@ import Foundation
 
 //TemplateMethodMain.main()
 //FactoryMethodMain.main()
-//AbstractFactoryMain.main()
+//AbstractFactoryMain.main(factoryCategory: .ListFactory)
 PrototypeMain.main()
 //BridgeMain.main()
 //AdapterMain.main()

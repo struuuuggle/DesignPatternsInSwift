@@ -12,6 +12,7 @@
 		6739DC8623A92979008DB4C9 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8123A92979008DB4C9 /* Display.swift */; };
 		6739DC8723A92979008DB4C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8223A92979008DB4C9 /* main.swift */; };
 		6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */; };
+		CE06AE6F23F9A1B700004514 /* StrategyMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06AE6E23F9A1B700004514 /* StrategyMain.swift */; };
 		CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746923AFBFDD0070930E /* BridgeMain.swift */; };
 		CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746C23AFCE2E0070930E /* Banner.swift */; };
 		CE1D746F23AFCF050070930E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746E23AFCF050070930E /* Print.swift */; };
@@ -46,6 +47,11 @@
 		CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780523E7206800E27731 /* PrototypeProduct.swift */; };
 		CEAA780823E7235E00E27731 /* MessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780723E7235E00E27731 /* MessageBox.swift */; };
 		CEAA780A23E72B6B00E27731 /* UnderLinePen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780923E72B6B00E27731 /* UnderLinePen.swift */; };
+		CEB5953523F995EF009082C9 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953423F995EF009082C9 /* Hand.swift */; };
+		CEB5953723F99967009082C9 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953623F99967009082C9 /* Strategy.swift */; };
+		CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953823F99999009082C9 /* WinningStrategy.swift */; };
+		CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953A23F99C57009082C9 /* ProbStrategy.swift */; };
+		CEB5953D23F9A00C009082C9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953C23F9A00C009082C9 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +73,8 @@
 		6739DC8123A92979008DB4C9 /* Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
 		6739DC8223A92979008DB4C9 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringDisplayImpl.swift; sourceTree = "<group>"; };
+		CE06AE6E23F9A1B700004514 /* StrategyMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyMain.swift; sourceTree = "<group>"; };
+		CE06AE7023F9A49800004514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE1D746923AFBFDD0070930E /* BridgeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMain.swift; sourceTree = "<group>"; };
 		CE1D746C23AFCE2E0070930E /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		CE1D746E23AFCF050070930E /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
@@ -106,6 +114,12 @@
 		CEAA780523E7206800E27731 /* PrototypeProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeProduct.swift; sourceTree = "<group>"; };
 		CEAA780723E7235E00E27731 /* MessageBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBox.swift; sourceTree = "<group>"; };
 		CEAA780923E72B6B00E27731 /* UnderLinePen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderLinePen.swift; sourceTree = "<group>"; };
+		CEB5953123F995AC009082C9 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEB5953423F995EF009082C9 /* Hand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hand.swift; sourceTree = "<group>"; };
+		CEB5953623F99967009082C9 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		CEB5953823F99999009082C9 /* WinningStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningStrategy.swift; sourceTree = "<group>"; };
+		CEB5953A23F99C57009082C9 /* ProbStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbStrategy.swift; sourceTree = "<group>"; };
+		CEB5953C23F9A00C009082C9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +160,7 @@
 				CE9D5C2223F2BD2F00AB57AF /* 07_Builder */,
 				CE6B1DF623DF063E00DA1401 /* 08_AbstractFactory */,
 				6739DC7E23A9295E008DB4C9 /* 09_Bridge */,
+				CEB5953023F99599009082C9 /* 10_Strategy */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -249,6 +264,7 @@
 		CEAA780023E71EF200E27731 /* 06_Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				CE06AE7023F9A49800004514 /* README.md */,
 				CEAA780123E71F1B00E27731 /* PrototypeMain.swift */,
 				CEAA780523E7206800E27731 /* PrototypeProduct.swift */,
 				CEAA780323E71F5900E27731 /* Manager.swift */,
@@ -256,6 +272,20 @@
 				CEAA780923E72B6B00E27731 /* UnderLinePen.swift */,
 			);
 			path = 06_Prototype;
+			sourceTree = "<group>";
+		};
+		CEB5953023F99599009082C9 /* 10_Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				CEB5953123F995AC009082C9 /* README.md */,
+				CE06AE6E23F9A1B700004514 /* StrategyMain.swift */,
+				CEB5953423F995EF009082C9 /* Hand.swift */,
+				CEB5953623F99967009082C9 /* Strategy.swift */,
+				CEB5953823F99999009082C9 /* WinningStrategy.swift */,
+				CEB5953A23F99C57009082C9 /* ProbStrategy.swift */,
+				CEB5953C23F9A00C009082C9 /* Player.swift */,
+			);
+			path = 10_Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,8 +347,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE06AE6F23F9A1B700004514 /* StrategyMain.swift in Sources */,
+				CEB5953D23F9A00C009082C9 /* Player.swift in Sources */,
 				CE6B1DFB23DF07D300DA1401 /* Item.swift in Sources */,
 				CE9D5C2D23F2C70000AB57AF /* BuilderMain.swift in Sources */,
+				CEB5953723F99967009082C9 /* Strategy.swift in Sources */,
+				CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */,
+				CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */,
 				CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */,
 				CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */,
 				CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */,
@@ -333,6 +368,7 @@
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
 				CE6B1E0323DF0DB700DA1401 /* Factory.swift in Sources */,
 				CE63D1BF23C3798D00F908DB /* IDCard.swift in Sources */,
+				CEB5953523F995EF009082C9 /* Hand.swift in Sources */,
 				CE1D747123AFCF2C0070930E /* PrintBanner.swift in Sources */,
 				CE63D1C123C37A2100F908DB /* IDCardFactory.swift in Sources */,
 				CE4942DA23DF2E8C0052086B /* ListTray.swift in Sources */,

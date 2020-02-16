@@ -8,10 +8,11 @@
 
 import Foundation
 
+//AdapterMain.main()
 //TemplateMethodMain.main()
 //FactoryMethodMain.main()
 //AbstractFactoryMain.main(factoryCategory: .ListFactory)
-BuilderMain.main(builderType: .HtmlBuilder)
+//BuilderMain.main(builderType: .HtmlBuilder)
 //PrototypeMain.main()
 //BridgeMain.main()
-//AdapterMain.main()
+StrategyMain.main()

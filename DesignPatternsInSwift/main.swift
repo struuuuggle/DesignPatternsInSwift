@@ -15,4 +15,5 @@ import Foundation
 //BuilderMain.main(builderType: .HtmlBuilder)
 //PrototypeMain.main()
 //BridgeMain.main()
-StrategyMain.main()
+//StrategyMain.main()
+CompositeMain.main()

@@ -13,6 +13,10 @@
 		6739DC8723A92979008DB4C9 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8223A92979008DB4C9 /* main.swift */; };
 		6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */; };
 		CE06AE6F23F9A1B700004514 /* StrategyMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE06AE6E23F9A1B700004514 /* StrategyMain.swift */; };
+		CE1ADB01240413B600333C1C /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADAFE240413B600333C1C /* Directory.swift */; };
+		CE1ADB02240413B600333C1C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADAFF240413B600333C1C /* Entry.swift */; };
+		CE1ADB03240413B600333C1C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADB00240413B600333C1C /* File.swift */; };
+		CE1ADB05240416E500333C1C /* CompositeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADB04240416E500333C1C /* CompositeMain.swift */; };
 		CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746923AFBFDD0070930E /* BridgeMain.swift */; };
 		CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746C23AFCE2E0070930E /* Banner.swift */; };
 		CE1D746F23AFCF050070930E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746E23AFCF050070930E /* Print.swift */; };
@@ -75,6 +79,11 @@
 		6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringDisplayImpl.swift; sourceTree = "<group>"; };
 		CE06AE6E23F9A1B700004514 /* StrategyMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrategyMain.swift; sourceTree = "<group>"; };
 		CE06AE7023F9A49800004514 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CE1ADAFE240413B600333C1C /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
+		CE1ADAFF240413B600333C1C /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		CE1ADB00240413B600333C1C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CE1ADB04240416E500333C1C /* CompositeMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeMain.swift; sourceTree = "<group>"; };
+		CE1ADB0624041A1200333C1C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE1D746923AFBFDD0070930E /* BridgeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMain.swift; sourceTree = "<group>"; };
 		CE1D746C23AFCE2E0070930E /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		CE1D746E23AFCF050070930E /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
@@ -161,6 +170,7 @@
 				CE6B1DF623DF063E00DA1401 /* 08_AbstractFactory */,
 				6739DC7E23A9295E008DB4C9 /* 09_Bridge */,
 				CEB5953023F99599009082C9 /* 10_Strategy */,
+				CE1ADAFD240413B600333C1C /* 11_Composite */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -175,6 +185,18 @@
 				6739DC8323A92979008DB4C9 /* StringDisplayImpl.swift */,
 			);
 			path = 09_Bridge;
+			sourceTree = "<group>";
+		};
+		CE1ADAFD240413B600333C1C /* 11_Composite */ = {
+			isa = PBXGroup;
+			children = (
+				CE1ADB0624041A1200333C1C /* README.md */,
+				CE1ADB04240416E500333C1C /* CompositeMain.swift */,
+				CE1ADAFF240413B600333C1C /* Entry.swift */,
+				CE1ADAFE240413B600333C1C /* Directory.swift */,
+				CE1ADB00240413B600333C1C /* File.swift */,
+			);
+			path = 11_Composite;
 			sourceTree = "<group>";
 		};
 		CE1D746B23AFCE240070930E /* 02_Adapter */ = {
@@ -365,6 +387,7 @@
 				CE46D12B23C232050059BF37 /* AbstractDisplay.swift in Sources */,
 				CE9D5C2523F2BDAC00AB57AF /* Builder.swift in Sources */,
 				CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */,
+				CE1ADB05240416E500333C1C /* CompositeMain.swift in Sources */,
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
 				CE6B1E0323DF0DB700DA1401 /* Factory.swift in Sources */,
 				CE63D1BF23C3798D00F908DB /* IDCard.swift in Sources */,
@@ -377,11 +400,14 @@
 				CE1D746F23AFCF050070930E /* Print.swift in Sources */,
 				6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */,
 				CE9D5C2B23F2C19800AB57AF /* HTMLBuilder.swift in Sources */,
+				CE1ADB02240413B600333C1C /* Entry.swift in Sources */,
 				CE6B1DFD23DF088100DA1401 /* Link.swift in Sources */,
+				CE1ADB01240413B600333C1C /* Directory.swift in Sources */,
 				CE4942DC23DF36280052086B /* ListPage.swift in Sources */,
 				CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */,
 				CE6B1E0923DF22B900DA1401 /* ListLink.swift in Sources */,
 				CE9D5C2723F2BDFE00AB57AF /* Director.swift in Sources */,
+				CE1ADB03240413B600333C1C /* File.swift in Sources */,
 				CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */,
 				CE6B1E0723DF21F500DA1401 /* ListFactory.swift in Sources */,
 				CEAA780A23E72B6B00E27731 /* UnderLinePen.swift in Sources */,

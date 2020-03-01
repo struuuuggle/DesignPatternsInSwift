@@ -16,4 +16,5 @@ import Foundation
 //PrototypeMain.main()
 //BridgeMain.main()
 //StrategyMain.main()
-CompositeMain.main()
+//CompositeMain.main()
+Decorator.main()

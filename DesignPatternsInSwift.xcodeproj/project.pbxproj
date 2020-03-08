@@ -62,6 +62,14 @@
 		CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953823F99999009082C9 /* WinningStrategy.swift */; };
 		CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953A23F99C57009082C9 /* ProbStrategy.swift */; };
 		CEB5953D23F9A00C009082C9 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB5953C23F9A00C009082C9 /* Player.swift */; };
+		E6BF190F2414BD42000B98E2 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF190E2414BD42000B98E2 /* Visitor.swift */; };
+		E6BF19112414BE70000B98E2 /* VisitorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF19102414BE70000B98E2 /* VisitorProtocol.swift */; };
+		E6BF19132414BF34000B98E2 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF19122414BF34000B98E2 /* Element.swift */; };
+		E6BF19152414BF6C000B98E2 /* VisitorEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF19142414BF6C000B98E2 /* VisitorEntry.swift */; };
+		E6BF19172414C29B000B98E2 /* VisitorFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF19162414C29B000B98E2 /* VisitorFile.swift */; };
+		E6BF19192414C510000B98E2 /* VisitorDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF19182414C510000B98E2 /* VisitorDirectory.swift */; };
+		E6BF191B2414C66C000B98E2 /* ListVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF191A2414C66C000B98E2 /* ListVisitor.swift */; };
+		E6BF191D2414E7A9000B98E2 /* VisitorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF191C2414E7A9000B98E2 /* VisitorError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -142,6 +150,15 @@
 		CEB5953823F99999009082C9 /* WinningStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinningStrategy.swift; sourceTree = "<group>"; };
 		CEB5953A23F99C57009082C9 /* ProbStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbStrategy.swift; sourceTree = "<group>"; };
 		CEB5953C23F9A00C009082C9 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E6BF190D2414BC80000B98E2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6BF190E2414BD42000B98E2 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		E6BF19102414BE70000B98E2 /* VisitorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorProtocol.swift; sourceTree = "<group>"; };
+		E6BF19122414BF34000B98E2 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		E6BF19142414BF6C000B98E2 /* VisitorEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorEntry.swift; sourceTree = "<group>"; };
+		E6BF19162414C29B000B98E2 /* VisitorFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorFile.swift; sourceTree = "<group>"; };
+		E6BF19182414C510000B98E2 /* VisitorDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorDirectory.swift; sourceTree = "<group>"; };
+		E6BF191A2414C66C000B98E2 /* ListVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVisitor.swift; sourceTree = "<group>"; };
+		E6BF191C2414E7A9000B98E2 /* VisitorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +202,7 @@
 				CEB5953023F99599009082C9 /* 10_Strategy */,
 				CE1ADAFD240413B600333C1C /* 11_Composite */,
 				CE33B60B240BEC910008BD30 /* 12_Decorator */,
+				E6BF190C2414BC60000B98E2 /* 13_Visitor */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -338,6 +356,22 @@
 			path = 10_Strategy;
 			sourceTree = "<group>";
 		};
+		E6BF190C2414BC60000B98E2 /* 13_Visitor */ = {
+			isa = PBXGroup;
+			children = (
+				E6BF190D2414BC80000B98E2 /* README.md */,
+				E6BF19122414BF34000B98E2 /* Element.swift */,
+				E6BF191A2414C66C000B98E2 /* ListVisitor.swift */,
+				E6BF190E2414BD42000B98E2 /* Visitor.swift */,
+				E6BF19182414C510000B98E2 /* VisitorDirectory.swift */,
+				E6BF19142414BF6C000B98E2 /* VisitorEntry.swift */,
+				E6BF191C2414E7A9000B98E2 /* VisitorError.swift */,
+				E6BF19162414C29B000B98E2 /* VisitorFile.swift */,
+				E6BF19102414BE70000B98E2 /* VisitorProtocol.swift */,
+			);
+			path = 13_Visitor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -415,8 +449,11 @@
 				CE46D12F23C233430059BF37 /* StringDisplay.swift in Sources */,
 				CE46D12B23C232050059BF37 /* AbstractDisplay.swift in Sources */,
 				CE9D5C2523F2BDAC00AB57AF /* Builder.swift in Sources */,
+				E6BF191D2414E7A9000B98E2 /* VisitorError.swift in Sources */,
 				CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */,
 				CE1ADB05240416E500333C1C /* CompositeMain.swift in Sources */,
+				E6BF191B2414C66C000B98E2 /* ListVisitor.swift in Sources */,
+				E6BF19132414BF34000B98E2 /* Element.swift in Sources */,
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
 				CE33B60D240BEDCD0008BD30 /* DecoratorDisplay.swift in Sources */,
 				CE6B1E0323DF0DB700DA1401 /* Factory.swift in Sources */,
@@ -431,9 +468,12 @@
 				6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */,
 				CE9D5C2B23F2C19800AB57AF /* HTMLBuilder.swift in Sources */,
 				CE1ADB02240413B600333C1C /* Entry.swift in Sources */,
+				E6BF19152414BF6C000B98E2 /* VisitorEntry.swift in Sources */,
 				CE6B1DFD23DF088100DA1401 /* Link.swift in Sources */,
 				CE1ADB01240413B600333C1C /* Directory.swift in Sources */,
+				E6BF19112414BE70000B98E2 /* VisitorProtocol.swift in Sources */,
 				CE33B619240BFDB70008BD30 /* Decorator.swift in Sources */,
+				E6BF19172414C29B000B98E2 /* VisitorFile.swift in Sources */,
 				CE33B60F240BF0CD0008BD30 /* Decorator+StringDisplay.swift in Sources */,
 				CE4942DC23DF36280052086B /* ListPage.swift in Sources */,
 				CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */,
@@ -443,8 +483,10 @@
 				CE33B615240BF9A60008BD30 /* FullBorder.swift in Sources */,
 				CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */,
 				CE6B1E0723DF21F500DA1401 /* ListFactory.swift in Sources */,
+				E6BF19192414C510000B98E2 /* VisitorDirectory.swift in Sources */,
 				CEAA780A23E72B6B00E27731 /* UnderLinePen.swift in Sources */,
 				CEAA780423E71F5900E27731 /* Manager.swift in Sources */,
+				E6BF190F2414BD42000B98E2 /* Visitor.swift in Sources */,
 				CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */,
 				CE33B613240BF7850008BD30 /* SideBorder.swift in Sources */,
 				CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */,

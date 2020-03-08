@@ -17,4 +17,5 @@ import Foundation
 //BridgeMain.main()
 //StrategyMain.main()
 //CompositeMain.main()
-Decorator.main()
+//Decorator.main()
+Visitor.main()

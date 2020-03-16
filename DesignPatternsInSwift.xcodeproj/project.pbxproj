@@ -70,6 +70,13 @@
 		E6BF19192414C510000B98E2 /* VisitorDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF19182414C510000B98E2 /* VisitorDirectory.swift */; };
 		E6BF191B2414C66C000B98E2 /* ListVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF191A2414C66C000B98E2 /* ListVisitor.swift */; };
 		E6BF191D2414E7A9000B98E2 /* VisitorError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BF191C2414E7A9000B98E2 /* VisitorError.swift */; };
+		E6DCCCCD241E625600982B68 /* Trouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCCC241E625600982B68 /* Trouble.swift */; };
+		E6DCCCCF241E627800982B68 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCCE241E627800982B68 /* ChainOfResponsibility.swift */; };
+		E6DCCCD1241E64B100982B68 /* NoSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCD0241E64B100982B68 /* NoSupport.swift */; };
+		E6DCCCD3241E64CD00982B68 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCD2241E64CD00982B68 /* Support.swift */; };
+		E6DCCCD5241E6BD800982B68 /* LimitSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCD4241E6BD800982B68 /* LimitSupport.swift */; };
+		E6DCCCD7241E6CE100982B68 /* OddSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCD6241E6CE100982B68 /* OddSupport.swift */; };
+		E6DCCCD9241E6DD200982B68 /* SpecialSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCD8241E6DD200982B68 /* SpecialSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -159,6 +166,14 @@
 		E6BF19182414C510000B98E2 /* VisitorDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorDirectory.swift; sourceTree = "<group>"; };
 		E6BF191A2414C66C000B98E2 /* ListVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVisitor.swift; sourceTree = "<group>"; };
 		E6BF191C2414E7A9000B98E2 /* VisitorError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorError.swift; sourceTree = "<group>"; };
+		E6DCCCCB241E61D500982B68 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E6DCCCCC241E625600982B68 /* Trouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trouble.swift; sourceTree = "<group>"; };
+		E6DCCCCE241E627800982B68 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		E6DCCCD0241E64B100982B68 /* NoSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoSupport.swift; sourceTree = "<group>"; };
+		E6DCCCD2241E64CD00982B68 /* Support.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		E6DCCCD4241E6BD800982B68 /* LimitSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitSupport.swift; sourceTree = "<group>"; };
+		E6DCCCD6241E6CE100982B68 /* OddSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OddSupport.swift; sourceTree = "<group>"; };
+		E6DCCCD8241E6DD200982B68 /* SpecialSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -203,6 +218,7 @@
 				CE1ADAFD240413B600333C1C /* 11_Composite */,
 				CE33B60B240BEC910008BD30 /* 12_Decorator */,
 				E6BF190C2414BC60000B98E2 /* 13_Visitor */,
+				E6DCCCCA241E61B800982B68 /* 14_ChainOfResponsibility */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -372,6 +388,21 @@
 			path = 13_Visitor;
 			sourceTree = "<group>";
 		};
+		E6DCCCCA241E61B800982B68 /* 14_ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				E6DCCCCB241E61D500982B68 /* README.md */,
+				E6DCCCCE241E627800982B68 /* ChainOfResponsibility.swift */,
+				E6DCCCD4241E6BD800982B68 /* LimitSupport.swift */,
+				E6DCCCD0241E64B100982B68 /* NoSupport.swift */,
+				E6DCCCD6241E6CE100982B68 /* OddSupport.swift */,
+				E6DCCCD8241E6DD200982B68 /* SpecialSupport.swift */,
+				E6DCCCD2241E64CD00982B68 /* Support.swift */,
+				E6DCCCCC241E625600982B68 /* Trouble.swift */,
+			);
+			path = 14_ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -433,15 +464,20 @@
 			files = (
 				CE06AE6F23F9A1B700004514 /* StrategyMain.swift in Sources */,
 				CEB5953D23F9A00C009082C9 /* Player.swift in Sources */,
+				E6DCCCD1241E64B100982B68 /* NoSupport.swift in Sources */,
+				E6DCCCD3241E64CD00982B68 /* Support.swift in Sources */,
 				CE6B1DFB23DF07D300DA1401 /* Item.swift in Sources */,
+				E6DCCCD9241E6DD200982B68 /* SpecialSupport.swift in Sources */,
 				CE9D5C2D23F2C70000AB57AF /* BuilderMain.swift in Sources */,
 				CEB5953723F99967009082C9 /* Strategy.swift in Sources */,
+				E6DCCCCD241E625600982B68 /* Trouble.swift in Sources */,
 				CE33B611240BF4310008BD30 /* Border.swift in Sources */,
 				CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */,
 				CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */,
 				CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */,
 				CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */,
 				CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */,
+				E6DCCCD7241E6CE100982B68 /* OddSupport.swift in Sources */,
 				CEAA780223E71F1B00E27731 /* PrototypeMain.swift in Sources */,
 				CE46D12D23C232670059BF37 /* CharDisplay.swift in Sources */,
 				CE46D13123C2344E0059BF37 /* TemplateMethodMain.swift in Sources */,
@@ -472,6 +508,7 @@
 				CE6B1DFD23DF088100DA1401 /* Link.swift in Sources */,
 				CE1ADB01240413B600333C1C /* Directory.swift in Sources */,
 				E6BF19112414BE70000B98E2 /* VisitorProtocol.swift in Sources */,
+				E6DCCCCF241E627800982B68 /* ChainOfResponsibility.swift in Sources */,
 				CE33B619240BFDB70008BD30 /* Decorator.swift in Sources */,
 				E6BF19172414C29B000B98E2 /* VisitorFile.swift in Sources */,
 				CE33B60F240BF0CD0008BD30 /* Decorator+StringDisplay.swift in Sources */,
@@ -492,6 +529,7 @@
 				CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */,
 				CE63D1C323C37C1400F908DB /* FactoryMethodMain.swift in Sources */,
 				CEAA780823E7235E00E27731 /* MessageBox.swift in Sources */,
+				E6DCCCD5241E6BD800982B68 /* LimitSupport.swift in Sources */,
 				6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */,
 				CE6B1DFF23DF090700DA1401 /* Tray.swift in Sources */,
 			);

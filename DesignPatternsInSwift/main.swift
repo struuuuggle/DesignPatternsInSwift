@@ -18,4 +18,5 @@ import Foundation
 //StrategyMain.main()
 //CompositeMain.main()
 //Decorator.main()
-Visitor.main()
+//Visitor.main()
+ChainOfResponsibility.main()

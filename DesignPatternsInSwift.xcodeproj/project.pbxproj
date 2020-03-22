@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A6242A24268F480098AFA3 /* MailData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15A6242824268EB30098AFA3 /* MailData.plist */; };
+		15BF6FAF2426754A00C2E107 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FAE2426754A00C2E107 /* Facade.swift */; };
+		15BF6FB12426757900C2E107 /* HTMLWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FB02426757900C2E107 /* HTMLWriter.swift */; };
+		15BF6FB5242679A700C2E107 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FB4242679A700C2E107 /* Database.swift */; };
+		15BF6FB7242680E700C2E107 /* PageMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FB6242680E700C2E107 /* PageMaker.swift */; };
 		6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */; };
 		6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8023A92979008DB4C9 /* CountDisplay.swift */; };
 		6739DC8623A92979008DB4C9 /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC8123A92979008DB4C9 /* Display.swift */; };
@@ -92,6 +97,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15A6242824268EB30098AFA3 /* MailData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MailData.plist; sourceTree = "<group>"; };
+		15BF6FAB2426718D00C2E107 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15BF6FAE2426754A00C2E107 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
+		15BF6FB02426757900C2E107 /* HTMLWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLWriter.swift; sourceTree = "<group>"; };
+		15BF6FB4242679A700C2E107 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		15BF6FB6242680E700C2E107 /* PageMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageMaker.swift; sourceTree = "<group>"; };
 		6739DC7323A928EB008DB4C9 /* DesignPatternsInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatternsInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayImpl.swift; sourceTree = "<group>"; };
 		6739DC8023A92979008DB4C9 /* CountDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountDisplay.swift; sourceTree = "<group>"; };
@@ -187,6 +198,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15BF6FAA2426714600C2E107 /* 15_Facade */ = {
+			isa = PBXGroup;
+			children = (
+				15A6242824268EB30098AFA3 /* MailData.plist */,
+				15BF6FAB2426718D00C2E107 /* README.md */,
+				15BF6FAE2426754A00C2E107 /* Facade.swift */,
+				15BF6FB4242679A700C2E107 /* Database.swift */,
+				15BF6FB02426757900C2E107 /* HTMLWriter.swift */,
+				15BF6FB6242680E700C2E107 /* PageMaker.swift */,
+			);
+			path = 15_Facade;
+			sourceTree = "<group>";
+		};
 		6739DC6A23A928EB008DB4C9 = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +243,7 @@
 				CE33B60B240BEC910008BD30 /* 12_Decorator */,
 				E6BF190C2414BC60000B98E2 /* 13_Visitor */,
 				E6DCCCCA241E61B800982B68 /* 14_ChainOfResponsibility */,
+				15BF6FAA2426714600C2E107 /* 15_Facade */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -413,6 +438,7 @@
 				6739DC6F23A928EB008DB4C9 /* Sources */,
 				6739DC7023A928EB008DB4C9 /* Frameworks */,
 				6739DC7123A928EB008DB4C9 /* CopyFiles */,
+				15BF6FB82426882700C2E107 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -457,6 +483,17 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		15BF6FB82426882700C2E107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A6242A24268F480098AFA3 /* MailData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6739DC6F23A928EB008DB4C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -475,6 +512,7 @@
 				CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */,
 				CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */,
 				CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */,
+				15BF6FB12426757900C2E107 /* HTMLWriter.swift in Sources */,
 				CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */,
 				CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */,
 				E6DCCCD7241E6CE100982B68 /* OddSupport.swift in Sources */,
@@ -483,7 +521,9 @@
 				CE46D13123C2344E0059BF37 /* TemplateMethodMain.swift in Sources */,
 				CE63D1BB23C3749900F908DB /* FactoryMethodProduct.swift in Sources */,
 				CE46D12F23C233430059BF37 /* StringDisplay.swift in Sources */,
+				15BF6FAF2426754A00C2E107 /* Facade.swift in Sources */,
 				CE46D12B23C232050059BF37 /* AbstractDisplay.swift in Sources */,
+				15BF6FB5242679A700C2E107 /* Database.swift in Sources */,
 				CE9D5C2523F2BDAC00AB57AF /* Builder.swift in Sources */,
 				E6BF191D2414E7A9000B98E2 /* VisitorError.swift in Sources */,
 				CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */,
@@ -520,6 +560,7 @@
 				CE33B615240BF9A60008BD30 /* FullBorder.swift in Sources */,
 				CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */,
 				CE6B1E0723DF21F500DA1401 /* ListFactory.swift in Sources */,
+				15BF6FB7242680E700C2E107 /* PageMaker.swift in Sources */,
 				E6BF19192414C510000B98E2 /* VisitorDirectory.swift in Sources */,
 				CEAA780A23E72B6B00E27731 /* UnderLinePen.swift in Sources */,
 				CEAA780423E71F5900E27731 /* Manager.swift in Sources */,

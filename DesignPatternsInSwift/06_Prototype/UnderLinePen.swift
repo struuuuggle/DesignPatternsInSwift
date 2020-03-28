@@ -8,24 +8,28 @@
 
 import Foundation
 
-class UnderlinePen: PrototypeProduct {
-    private let char: String
-    
-    init(char: String) {
-        self.char = char
-    }
-    
-    func use(s: String) {
-        let length = s.count
-        print(s)
-        for _ in 0..<length {
-            print(char, terminator: "")
+typealias UnderlinePen = Prototype.UnderlinePen
+
+extension Prototype {
+    class UnderlinePen: PrototypeProduct {
+        private let char: String
+        
+        init(char: String) {
+            self.char = char
         }
-        print("")
-    }
-    
-    func createClone() -> PrototypeProduct {
-        return copy() as! PrototypeProduct
+        
+        func use(s: String) {
+            let length = s.count
+            print(s)
+            for _ in 0..<length {
+                print(char, terminator: "")
+            }
+            print("")
+        }
+        
+        func createClone() -> PrototypeProduct {
+            return copy() as! PrototypeProduct
+        }
     }
 }
 

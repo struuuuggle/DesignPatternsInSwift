@@ -8,18 +8,20 @@
 
 import Foundation
 
-struct PrintBanner: Print {
-    private var banner: Banner
-
-    init(message: String) {
-        self.banner = Banner(message: message)
-    }
-    
-    func printWeak() {
-        banner.printWithParenthesis()
-    }
-    
-    func printStrong() {
-        banner.printWithAsterisk()
-    }
+extension Adapter {
+    struct PrintBanner: Print {
+        private var banner: Banner
+        
+        init(message: String) {
+            self.banner = Banner(message: message)
+        }
+        
+        func printWeak() {
+            banner.printWithParenthesis()
+        }
+        
+        func printStrong() {
+            banner.printWithAsterisk()
+        }
+    }    
 }

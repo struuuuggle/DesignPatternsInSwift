@@ -21,12 +21,12 @@
 		CE1ADB01240413B600333C1C /* Directory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADAFE240413B600333C1C /* Directory.swift */; };
 		CE1ADB02240413B600333C1C /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADAFF240413B600333C1C /* Entry.swift */; };
 		CE1ADB03240413B600333C1C /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADB00240413B600333C1C /* File.swift */; };
-		CE1ADB05240416E500333C1C /* CompositeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADB04240416E500333C1C /* CompositeMain.swift */; };
-		CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746923AFBFDD0070930E /* BridgeMain.swift */; };
+		CE1ADB05240416E500333C1C /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1ADB04240416E500333C1C /* Composite.swift */; };
+		CE1D746A23AFBFDD0070930E /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746923AFBFDD0070930E /* Bridge.swift */; };
 		CE1D746D23AFCE2E0070930E /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746C23AFCE2E0070930E /* Banner.swift */; };
 		CE1D746F23AFCF050070930E /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D746E23AFCF050070930E /* Print.swift */; };
 		CE1D747123AFCF2C0070930E /* PrintBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D747023AFCF2C0070930E /* PrintBanner.swift */; };
-		CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D747223AFCFC00070930E /* AdapterMain.swift */; };
+		CE1D747323AFCFC00070930E /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1D747223AFCFC00070930E /* Adapter.swift */; };
 		CE33B60D240BEDCD0008BD30 /* DecoratorDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33B60C240BEDCD0008BD30 /* DecoratorDisplay.swift */; };
 		CE33B60F240BF0CD0008BD30 /* Decorator+StringDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33B60E240BF0CD0008BD30 /* Decorator+StringDisplay.swift */; };
 		CE33B611240BF4310008BD30 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE33B610240BF4310008BD30 /* Border.swift */; };
@@ -36,20 +36,20 @@
 		CE46D12B23C232050059BF37 /* AbstractDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D12A23C232050059BF37 /* AbstractDisplay.swift */; };
 		CE46D12D23C232670059BF37 /* CharDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D12C23C232670059BF37 /* CharDisplay.swift */; };
 		CE46D12F23C233430059BF37 /* StringDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D12E23C233430059BF37 /* StringDisplay.swift */; };
-		CE46D13123C2344E0059BF37 /* TemplateMethodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D13023C2344E0059BF37 /* TemplateMethodMain.swift */; };
+		CE46D13123C2344E0059BF37 /* TemplateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D13023C2344E0059BF37 /* TemplateMethod.swift */; };
 		CE4942DA23DF2E8C0052086B /* ListTray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4942D923DF2E8C0052086B /* ListTray.swift */; };
 		CE4942DC23DF36280052086B /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4942DB23DF36280052086B /* ListPage.swift */; };
 		CE63D1BB23C3749900F908DB /* FactoryMethodProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1BA23C3749900F908DB /* FactoryMethodProduct.swift */; };
 		CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1BC23C374C000F908DB /* FactoryProtocol.swift */; };
 		CE63D1BF23C3798D00F908DB /* IDCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1BE23C3798D00F908DB /* IDCard.swift */; };
 		CE63D1C123C37A2100F908DB /* IDCardFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1C023C37A2100F908DB /* IDCardFactory.swift */; };
-		CE63D1C323C37C1400F908DB /* FactoryMethodMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1C223C37C1400F908DB /* FactoryMethodMain.swift */; };
+		CE63D1C323C37C1400F908DB /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63D1C223C37C1400F908DB /* FactoryMethod.swift */; };
 		CE6B1DFB23DF07D300DA1401 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1DFA23DF07D300DA1401 /* Item.swift */; };
 		CE6B1DFD23DF088100DA1401 /* Link.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1DFC23DF088100DA1401 /* Link.swift */; };
 		CE6B1DFF23DF090700DA1401 /* Tray.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1DFE23DF090700DA1401 /* Tray.swift */; };
 		CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0023DF0A3100DA1401 /* Page.swift */; };
 		CE6B1E0323DF0DB700DA1401 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0223DF0DB700DA1401 /* Factory.swift */; };
-		CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0423DF184100DA1401 /* AbstractFactoryMain.swift */; };
+		CE6B1E0523DF184100DA1401 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0423DF184100DA1401 /* AbstractFactory.swift */; };
 		CE6B1E0723DF21F500DA1401 /* ListFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0623DF21F500DA1401 /* ListFactory.swift */; };
 		CE6B1E0923DF22B900DA1401 /* ListLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B1E0823DF22B900DA1401 /* ListLink.swift */; };
 		CE9D5C2523F2BDAC00AB57AF /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D5C2423F2BDAC00AB57AF /* Builder.swift */; };
@@ -57,7 +57,7 @@
 		CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D5C2823F2BF9400AB57AF /* TextBuilder.swift */; };
 		CE9D5C2B23F2C19800AB57AF /* HTMLBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D5C2A23F2C19800AB57AF /* HTMLBuilder.swift */; };
 		CE9D5C2D23F2C70000AB57AF /* BuilderMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D5C2C23F2C70000AB57AF /* BuilderMain.swift */; };
-		CEAA780223E71F1B00E27731 /* PrototypeMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780123E71F1B00E27731 /* PrototypeMain.swift */; };
+		CEAA780223E71F1B00E27731 /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780123E71F1B00E27731 /* Prototype.swift */; };
 		CEAA780423E71F5900E27731 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780323E71F5900E27731 /* Manager.swift */; };
 		CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780523E7206800E27731 /* PrototypeProduct.swift */; };
 		CEAA780823E7235E00E27731 /* MessageBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA780723E7235E00E27731 /* MessageBox.swift */; };
@@ -114,13 +114,13 @@
 		CE1ADAFE240413B600333C1C /* Directory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directory.swift; sourceTree = "<group>"; };
 		CE1ADAFF240413B600333C1C /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		CE1ADB00240413B600333C1C /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		CE1ADB04240416E500333C1C /* CompositeMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeMain.swift; sourceTree = "<group>"; };
+		CE1ADB04240416E500333C1C /* Composite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		CE1ADB0624041A1200333C1C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CE1D746923AFBFDD0070930E /* BridgeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeMain.swift; sourceTree = "<group>"; };
+		CE1D746923AFBFDD0070930E /* Bridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
 		CE1D746C23AFCE2E0070930E /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		CE1D746E23AFCF050070930E /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
 		CE1D747023AFCF2C0070930E /* PrintBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintBanner.swift; sourceTree = "<group>"; };
-		CE1D747223AFCFC00070930E /* AdapterMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterMain.swift; sourceTree = "<group>"; };
+		CE1D747223AFCFC00070930E /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 		CE1D747723AFD4940070930E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE33B60C240BEDCD0008BD30 /* DecoratorDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorDisplay.swift; sourceTree = "<group>"; };
 		CE33B60E240BF0CD0008BD30 /* Decorator+StringDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Decorator+StringDisplay.swift"; sourceTree = "<group>"; };
@@ -133,7 +133,7 @@
 		CE46D12A23C232050059BF37 /* AbstractDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractDisplay.swift; sourceTree = "<group>"; };
 		CE46D12C23C232670059BF37 /* CharDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharDisplay.swift; sourceTree = "<group>"; };
 		CE46D12E23C233430059BF37 /* StringDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringDisplay.swift; sourceTree = "<group>"; };
-		CE46D13023C2344E0059BF37 /* TemplateMethodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodMain.swift; sourceTree = "<group>"; };
+		CE46D13023C2344E0059BF37 /* TemplateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethod.swift; sourceTree = "<group>"; };
 		CE4942D923DF2E8C0052086B /* ListTray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTray.swift; sourceTree = "<group>"; };
 		CE4942DB23DF36280052086B /* ListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
 		CE63D1B923C3745200F908DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -141,14 +141,14 @@
 		CE63D1BC23C374C000F908DB /* FactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryProtocol.swift; sourceTree = "<group>"; };
 		CE63D1BE23C3798D00F908DB /* IDCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCard.swift; sourceTree = "<group>"; };
 		CE63D1C023C37A2100F908DB /* IDCardFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDCardFactory.swift; sourceTree = "<group>"; };
-		CE63D1C223C37C1400F908DB /* FactoryMethodMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodMain.swift; sourceTree = "<group>"; };
+		CE63D1C223C37C1400F908DB /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 		CE6B1DF723DF065600DA1401 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE6B1DFA23DF07D300DA1401 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		CE6B1DFC23DF088100DA1401 /* Link.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Link.swift; sourceTree = "<group>"; };
 		CE6B1DFE23DF090700DA1401 /* Tray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tray.swift; sourceTree = "<group>"; };
 		CE6B1E0023DF0A3100DA1401 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		CE6B1E0223DF0DB700DA1401 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
-		CE6B1E0423DF184100DA1401 /* AbstractFactoryMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryMain.swift; sourceTree = "<group>"; };
+		CE6B1E0423DF184100DA1401 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		CE6B1E0623DF21F500DA1401 /* ListFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListFactory.swift; sourceTree = "<group>"; };
 		CE6B1E0823DF22B900DA1401 /* ListLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListLink.swift; sourceTree = "<group>"; };
 		CE9D5C2323F2BD5700AB57AF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -157,7 +157,7 @@
 		CE9D5C2823F2BF9400AB57AF /* TextBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBuilder.swift; sourceTree = "<group>"; };
 		CE9D5C2A23F2C19800AB57AF /* HTMLBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLBuilder.swift; sourceTree = "<group>"; };
 		CE9D5C2C23F2C70000AB57AF /* BuilderMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderMain.swift; sourceTree = "<group>"; };
-		CEAA780123E71F1B00E27731 /* PrototypeMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeMain.swift; sourceTree = "<group>"; };
+		CEAA780123E71F1B00E27731 /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		CEAA780323E71F5900E27731 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 		CEAA780523E7206800E27731 /* PrototypeProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeProduct.swift; sourceTree = "<group>"; };
 		CEAA780723E7235E00E27731 /* MessageBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBox.swift; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 		6739DC7E23A9295E008DB4C9 /* 09_Bridge */ = {
 			isa = PBXGroup;
 			children = (
-				CE1D746923AFBFDD0070930E /* BridgeMain.swift */,
+				CE1D746923AFBFDD0070930E /* Bridge.swift */,
 				6739DC8023A92979008DB4C9 /* CountDisplay.swift */,
 				6739DC8123A92979008DB4C9 /* Display.swift */,
 				6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */,
@@ -264,7 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1ADB0624041A1200333C1C /* README.md */,
-				CE1ADB04240416E500333C1C /* CompositeMain.swift */,
+				CE1ADB04240416E500333C1C /* Composite.swift */,
 				CE1ADAFF240413B600333C1C /* Entry.swift */,
 				CE1ADAFE240413B600333C1C /* Directory.swift */,
 				CE1ADB00240413B600333C1C /* File.swift */,
@@ -276,7 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1D747723AFD4940070930E /* README.md */,
-				CE1D747223AFCFC00070930E /* AdapterMain.swift */,
+				CE1D747223AFCFC00070930E /* Adapter.swift */,
 				CE1D746C23AFCE2E0070930E /* Banner.swift */,
 				CE1D746E23AFCF050070930E /* Print.swift */,
 				CE1D747023AFCF2C0070930E /* PrintBanner.swift */,
@@ -302,7 +302,7 @@
 			isa = PBXGroup;
 			children = (
 				CE46D12923C231880059BF37 /* README.md */,
-				CE46D13023C2344E0059BF37 /* TemplateMethodMain.swift */,
+				CE46D13023C2344E0059BF37 /* TemplateMethod.swift */,
 				CE46D12A23C232050059BF37 /* AbstractDisplay.swift */,
 				CE46D12C23C232670059BF37 /* CharDisplay.swift */,
 				CE46D12E23C233430059BF37 /* StringDisplay.swift */,
@@ -314,7 +314,7 @@
 			isa = PBXGroup;
 			children = (
 				CE63D1B923C3745200F908DB /* README.md */,
-				CE63D1C223C37C1400F908DB /* FactoryMethodMain.swift */,
+				CE63D1C223C37C1400F908DB /* FactoryMethod.swift */,
 				CE63D1BA23C3749900F908DB /* FactoryMethodProduct.swift */,
 				CE63D1BC23C374C000F908DB /* FactoryProtocol.swift */,
 				CE63D1BE23C3798D00F908DB /* IDCard.swift */,
@@ -327,7 +327,7 @@
 			isa = PBXGroup;
 			children = (
 				CE6B1DF723DF065600DA1401 /* README.md */,
-				CE6B1E0423DF184100DA1401 /* AbstractFactoryMain.swift */,
+				CE6B1E0423DF184100DA1401 /* AbstractFactory.swift */,
 				CE6B1DF823DF07CA00DA1401 /* Factory */,
 				CE6B1DF923DF07CA00DA1401 /* ListFactory */,
 			);
@@ -374,7 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				CE06AE7023F9A49800004514 /* README.md */,
-				CEAA780123E71F1B00E27731 /* PrototypeMain.swift */,
+				CEAA780123E71F1B00E27731 /* Prototype.swift */,
 				CEAA780523E7206800E27731 /* PrototypeProduct.swift */,
 				CEAA780323E71F5900E27731 /* Manager.swift */,
 				CEAA780723E7235E00E27731 /* MessageBox.swift */,
@@ -511,14 +511,14 @@
 				CE33B611240BF4310008BD30 /* Border.swift in Sources */,
 				CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */,
 				CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */,
-				CE6B1E0523DF184100DA1401 /* AbstractFactoryMain.swift in Sources */,
+				CE6B1E0523DF184100DA1401 /* AbstractFactory.swift in Sources */,
 				15BF6FB12426757900C2E107 /* HTMLWriter.swift in Sources */,
 				CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */,
 				CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */,
 				E6DCCCD7241E6CE100982B68 /* OddSupport.swift in Sources */,
-				CEAA780223E71F1B00E27731 /* PrototypeMain.swift in Sources */,
+				CEAA780223E71F1B00E27731 /* Prototype.swift in Sources */,
 				CE46D12D23C232670059BF37 /* CharDisplay.swift in Sources */,
-				CE46D13123C2344E0059BF37 /* TemplateMethodMain.swift in Sources */,
+				CE46D13123C2344E0059BF37 /* TemplateMethod.swift in Sources */,
 				CE63D1BB23C3749900F908DB /* FactoryMethodProduct.swift in Sources */,
 				CE46D12F23C233430059BF37 /* StringDisplay.swift in Sources */,
 				15BF6FAF2426754A00C2E107 /* Facade.swift in Sources */,
@@ -527,7 +527,7 @@
 				CE9D5C2523F2BDAC00AB57AF /* Builder.swift in Sources */,
 				E6BF191D2414E7A9000B98E2 /* VisitorError.swift in Sources */,
 				CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */,
-				CE1ADB05240416E500333C1C /* CompositeMain.swift in Sources */,
+				CE1ADB05240416E500333C1C /* Composite.swift in Sources */,
 				E6BF191B2414C66C000B98E2 /* ListVisitor.swift in Sources */,
 				E6BF19132414BF34000B98E2 /* Element.swift in Sources */,
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
@@ -553,7 +553,7 @@
 				E6BF19172414C29B000B98E2 /* VisitorFile.swift in Sources */,
 				CE33B60F240BF0CD0008BD30 /* Decorator+StringDisplay.swift in Sources */,
 				CE4942DC23DF36280052086B /* ListPage.swift in Sources */,
-				CE1D747323AFCFC00070930E /* AdapterMain.swift in Sources */,
+				CE1D747323AFCFC00070930E /* Adapter.swift in Sources */,
 				CE6B1E0923DF22B900DA1401 /* ListLink.swift in Sources */,
 				CE9D5C2723F2BDFE00AB57AF /* Director.swift in Sources */,
 				CE1ADB03240413B600333C1C /* File.swift in Sources */,
@@ -565,10 +565,10 @@
 				CEAA780A23E72B6B00E27731 /* UnderLinePen.swift in Sources */,
 				CEAA780423E71F5900E27731 /* Manager.swift in Sources */,
 				E6BF190F2414BD42000B98E2 /* Visitor.swift in Sources */,
-				CE1D746A23AFBFDD0070930E /* BridgeMain.swift in Sources */,
+				CE1D746A23AFBFDD0070930E /* Bridge.swift in Sources */,
 				CE33B613240BF7850008BD30 /* SideBorder.swift in Sources */,
 				CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */,
-				CE63D1C323C37C1400F908DB /* FactoryMethodMain.swift in Sources */,
+				CE63D1C323C37C1400F908DB /* FactoryMethod.swift in Sources */,
 				CEAA780823E7235E00E27731 /* MessageBox.swift in Sources */,
 				E6DCCCD5241E6BD800982B68 /* LimitSupport.swift in Sources */,
 				6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */,

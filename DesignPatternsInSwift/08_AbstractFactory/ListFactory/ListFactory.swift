@@ -8,19 +8,20 @@
 
 import Foundation
 
-final class ListFactory: Factory {
-    
-    override func createLink(caption: String, url: String) -> Link {
-        ListLink(caption: caption, url: url)
+extension AbstractFactory {
+    final class ListFactory: Factory {
+        
+        override func createLink(caption: String, url: String) -> Link {
+            ListLink(caption: caption, url: url)
+        }
+        
+        override func createTray(caption: String) -> Tray {
+            ListTray(caption: caption)
+        }
+        
+        override func createPage(title: String, author: String) -> Page {
+            ListPage(title: title, author: author)
+        }                
     }
-    
-    override func createTray(caption: String) -> Tray {
-        ListTray(caption: caption)
-    }
-    
-    override func createPage(title: String, author: String) -> Page {
-        ListPage(title: title, author: author)
-    }
-    
-    
 }
+

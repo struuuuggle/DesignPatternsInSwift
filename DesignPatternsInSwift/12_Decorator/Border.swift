@@ -13,5 +13,3 @@ protocol Border: DecoratorDisplay {
     /// この飾り枠が包んでいる「中身」を指す
     var display: DecoratorDisplay { get }
 }
-
-

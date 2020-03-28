@@ -8,22 +8,25 @@
 
 import Foundation
 
-final class ListTray: Tray {
-    override init(caption: String) {
-        super.init(caption: caption)
-    }
-    
-    override func makeHTML() -> String {
-        var buffer = ""
-        buffer.append("<li>\n")
-        buffer.append("\(caption)\n")
-        buffer.append("<ul>\n")
-        tray.forEach { item in
-            buffer.append(item.makeHTML())
+extension AbstractFactory {
+    final class ListTray: Tray {
+        override init(caption: String) {
+            super.init(caption: caption)
         }
-        buffer.append("</ul>\n")
-        buffer.append("</li>\n")
         
-        return buffer
-    }
+        override func makeHTML() -> String {
+            var buffer = ""
+            buffer.append("<li>\n")
+            buffer.append("\(caption)\n")
+            buffer.append("<ul>\n")
+            tray.forEach { item in
+                buffer.append(item.makeHTML())
+            }
+            buffer.append("</ul>\n")
+            buffer.append("</li>\n")
+            
+            return buffer
+        }
+    }    
 }
+

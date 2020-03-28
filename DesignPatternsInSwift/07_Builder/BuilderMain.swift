@@ -8,8 +8,7 @@
 
 import Foundation
 
-struct BuilderMain {
-    
+enum BuilderMain {
     static func main(builderType: BuilderType) {
         
         switch builderType {

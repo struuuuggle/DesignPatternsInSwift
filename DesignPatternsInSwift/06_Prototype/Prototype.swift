@@ -1,5 +1,5 @@
 //
-//  PrototypeMain.swift
+//  Prototype.swift
 //  DesignPatternsInSwift
 //
 //  Created by Mikiya Abe on 2020/02/03.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct PrototypeMain {
+struct Prototype {
     static func main() {
         let manager = Manager()
         

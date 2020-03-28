@@ -8,18 +8,21 @@
 
 import Foundation
 
-class WinningStrategy: Strategy {
-    private var won: Bool = false
-    private var prevHand: Hand = Hand(handValue: 0)
-    
-    func nextHand() -> Hand {
-        if !won {
-            prevHand = Hand.getHand(of: Int.random(in: 0...2))
+extension StrategyMain {
+    class WinningStrategy: Strategy {
+        private var won: Bool = false
+        private var prevHand: Hand = Hand(handValue: 0)
+        
+        func nextHand() -> Hand {
+            if !won {
+                prevHand = Hand.getHand(of: Int.random(in: 0...2))
+            }
+            return prevHand
         }
-        return prevHand
-    }
-    
-    func study(win: Bool) {
-        self.won = win
-    }
+        
+        func study(win: Bool) {
+            self.won = win
+        }
+    }    
 }
+

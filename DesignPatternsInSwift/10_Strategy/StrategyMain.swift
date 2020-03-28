@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct StrategyMain {
+enum StrategyMain {
     static func main() {
         let player1 = Player(name: "Taro", strategy: WinningStrategy())
         let player2 = Player(name: "Hana", strategy: ProbStrategy())

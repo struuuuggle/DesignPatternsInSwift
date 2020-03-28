@@ -1,5 +1,5 @@
 //
-//  AdapterMain.swift
+//  Adapter.swift
 //  DPwithSwift
 //
 //  Created by Mikiya Abe on 2019/12/23.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct AdapterMain {
+enum Adapter {
     static func main() {
         let p = PrintBanner(message: "Hello")
         p.printWeak()

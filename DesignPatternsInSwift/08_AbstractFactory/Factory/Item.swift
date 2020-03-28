@@ -8,16 +8,18 @@
 
 import Foundation
 
-/// 項目
-class Item {
-    /// 見出し
-    var caption: String
-
-    init(caption: String) {
-        self.caption = caption
-    }
-
-    func makeHTML() -> String {
-        fatalError()
-    }
+extension AbstractFactory {
+    /// 項目
+    class Item {
+        /// 見出し
+        var caption: String
+        
+        init(caption: String) {
+            self.caption = caption
+        }
+        
+        func makeHTML() -> String {
+            fatalError()
+        }
+    }    
 }

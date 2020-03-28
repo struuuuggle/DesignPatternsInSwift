@@ -8,15 +8,17 @@
 
 import Foundation
 
-class Manager {
-    private var showCase: [String: PrototypeProduct] = [:]
-    
-    func register(name: String, prototype: PrototypeProduct) {
-        self.showCase[name] = prototype
-    }
-    
-    func create(protoName: String) -> PrototypeProduct {
-        let p = showCase[protoName]!
-        return p.createClone()
-    }
+extension Prototype {
+    class Manager {
+        private var showCase: [String: PrototypeProduct] = [:]
+        
+        func register(name: String, prototype: PrototypeProduct) {
+            self.showCase[name] = prototype
+        }
+        
+        func create(protoName: String) -> PrototypeProduct {
+            let p = showCase[protoName]!
+            return p.createClone()
+        }
+    }    
 }

@@ -1,12 +1,12 @@
 //
-//  AbstractFactoryMain.swift
+//  AbstractFactory.swift
 //  DesignPatternsInSwift
 //
 //  Created by Mikiya Abe on 2020/01/27.
 //  Copyright © 2020 Mikiya Abe. All rights reserved.
 //
 
-struct AbstractFactoryMain {
+enum AbstractFactory {
 
     static func main(factoryCategory: FactoryCategory) {
         let factory = Factory.getFactory(from: factoryCategory)
@@ -19,20 +19,20 @@ struct AbstractFactoryMain {
         let excite = factory.createLink(caption: "Excite", url: "https://www.exite.com")
         let google = factory.createLink(caption: "Google", url: "https://www.google.com")
         
-        var trayNews = factory.createTray(caption: "新聞")
+        let trayNews = factory.createTray(caption: "新聞")
         trayNews.add(item: asahi)
         trayNews.add(item: yomiuri)
         
-        var trayYahoo = factory.createTray(caption: "Yahoo!")
+        let trayYahoo = factory.createTray(caption: "Yahoo!")
         trayYahoo.add(item: usYahoo)
         trayYahoo.add(item: jpYahoo)
         
-        var traySearch = factory.createTray(caption: "サーチエンジン")
+        let traySearch = factory.createTray(caption: "サーチエンジン")
         traySearch.add(item: trayYahoo)
         traySearch.add(item: excite)
         traySearch.add(item: google)
         
-        var page = factory.createPage(title: "LinkPage", author: "struuuuggle")
+        let page = factory.createPage(title: "LinkPage", author: "struuuuggle")
         page.add(item: trayNews)
         page.add(item: trayYahoo)
         page.add(item: traySearch)

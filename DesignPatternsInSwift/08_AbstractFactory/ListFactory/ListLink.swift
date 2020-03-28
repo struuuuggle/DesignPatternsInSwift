@@ -8,12 +8,15 @@
 
 import Foundation
 
-final class ListLink: Link {
-    override init(caption: String, url: String) {
-        super.init(caption: caption, url: url)
-    }    
+extension AbstractFactory {
+    final class ListLink: Link {
+        override init(caption: String, url: String) {
+            super.init(caption: caption, url: url)
+        }
         
-    override func makeHTML() -> String {
-        "<li><a href=\"" + url + "\">" + caption + "</a></li>\n"
-    }
+        override func makeHTML() -> String {
+            "<li><a href=\"" + url + "\">" + caption + "</a></li>\n"
+        }
+    }    
 }
+

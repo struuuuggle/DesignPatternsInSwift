@@ -8,14 +8,16 @@
 
 import Foundation
 
-struct Banner {
-    let message: String
-    
-    func printWithParenthesis() {
-        print("(\(self.message))")
-    }
-    
-    func printWithAsterisk() {
-        print("*\(self.message)*")
-    }
+extension Adapter {
+    struct Banner {
+        let message: String
+        
+        func printWithParenthesis() {
+            print("(\(self.message))")
+        }
+        
+        func printWithAsterisk() {
+            print("*\(self.message)*")
+        }
+    }    
 }

@@ -9,6 +9,6 @@
 import Foundation
 
 protocol Strategy {
-    func nextHand() -> Hand
+    func nextHand() -> StrategyMain.Hand
     func study(win: Bool)
 }

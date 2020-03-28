@@ -8,18 +8,20 @@
 
 import Foundation
 
-struct CharDisplay: AbstractDisplay {
-    var char: String // char allows only 1 character
-    
-    func open() {
-        Swift.print("<<", terminator: "")
-    }
-    
-    func print() {
-        Swift.print(char, terminator: "")
-    }
-    
-    func close() {
-        Swift.print(">>")
+extension TemplateMethod {
+    struct CharDisplay: AbstractDisplay {
+        var char: String // char allows only 1 character
+        
+        func open() {
+            Swift.print("<<", terminator: "")
+        }
+        
+        func print() {
+            Swift.print(char, terminator: "")
+        }
+        
+        func close() {
+            Swift.print(">>")
+        }
     }
 }

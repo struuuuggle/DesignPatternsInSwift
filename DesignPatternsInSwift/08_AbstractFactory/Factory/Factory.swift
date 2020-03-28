@@ -8,29 +8,31 @@
 
 import Foundation
 
-class Factory {
-    
-    /// 引数で受け取った文字列のクラス名からインスタンスを生成する
-    /// - 生成するクラスはNSObjectを継承している必要がある
-    /// - Parameters:
-    ///   - category: 生成するクラス名
-    static func getFactory(from category: FactoryCategory) -> Factory {
-        switch category {
-        case .ListFactory: return ListFactory()
+extension AbstractFactory {
+    class Factory {
+        /// 引数で受け取った文字列のクラス名からインスタンスを生成する
+        /// - 生成するクラスはNSObjectを継承している必要がある
+        /// - Parameters:
+        ///   - category: 生成するクラス名
+        static func getFactory(from category: FactoryCategory) -> Factory {
+            switch category {
+            case .ListFactory: return ListFactory()
+            }
+        }
+        
+        func createLink(caption: String, url: String) -> Link {
+            fatalError()
+        }
+        func createTray(caption: String) -> Tray {
+            fatalError()
+        }
+        func createPage(title: String, author: String) -> Page {
+            fatalError()
         }
     }
-
-    func createLink(caption: String, url: String) -> Link {
-        fatalError()
-    }
-    func createTray(caption: String) -> Tray {
-        fatalError()
-    }
-    func createPage(title: String, author: String) -> Page {
-        fatalError()
-    }
+    
+    enum FactoryCategory: String {
+        case ListFactory
+    }    
 }
 
-enum FactoryCategory: String {
-    case ListFactory
-}

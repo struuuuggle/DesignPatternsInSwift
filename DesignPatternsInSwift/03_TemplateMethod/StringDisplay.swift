@@ -8,32 +8,34 @@
 
 import Foundation
 
-struct StringDisplay: AbstractDisplay {
-    private var str: String
-    private var width: Int
-    
-    init(str: String) {
-        self.str = str
-        self.width = str.lengthOfBytes(using: .japaneseEUC)
-    }
-    
-    func open () {
-        self.printLine()
-    }
-    
-    func print() {
-        Swift.print("|\(self.str)|")
-    }
-    
-    func close() {
-        self.printLine()
-    }
-    
-    private func printLine() {
-        Swift.print("+", terminator: "")
-        (0..<width).forEach { _ in
-            Swift.print("-", terminator: "")
+extension TemplateMethod {
+    struct StringDisplay: AbstractDisplay {
+        private var str: String
+        private var width: Int
+        
+        init(str: String) {
+            self.str = str
+            self.width = str.lengthOfBytes(using: .japaneseEUC)
         }
-        Swift.print("+")
+        
+        func open () {
+            self.printLine()
+        }
+        
+        func print() {
+            Swift.print("|\(self.str)|")
+        }
+        
+        func close() {
+            self.printLine()
+        }
+        
+        private func printLine() {
+            Swift.print("+", terminator: "")
+            (0..<width).forEach { _ in
+                Swift.print("-", terminator: "")
+            }
+            Swift.print("+")
+        }
     }
 }

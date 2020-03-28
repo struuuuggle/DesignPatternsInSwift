@@ -8,16 +8,18 @@
 
 import Foundation
 
-class CountDisplay: Display {
-    override init(impl: DisplayImpl) {
-        super.init(impl: impl)
-    }
-    
-    func multiDisplay(times: Int) {
-        super.open()
-        (0..<times).forEach { _ in
-            super.print()
+extension Bridge {
+    class CountDisplay: Display {
+        override init(impl: DisplayImpl) {
+            super.init(impl: impl)
         }
-        super.close()
-    }
+        
+        func multiDisplay(times: Int) {
+            super.open()
+            (0..<times).forEach { _ in
+                super.print()
+            }
+            super.close()
+        }
+    }    
 }

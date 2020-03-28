@@ -28,28 +28,30 @@ import Foundation
 //    }
 //}
 
-class Display {
-    var impl: DisplayImpl
-    
-    init(impl: DisplayImpl) {
-        self.impl = impl
-    }
-
-    func open() {
-        impl.rawOpen()
-    }
-
-    func print() {
-        impl.rawPrint()
-    }
-
-    func close() {
-        impl.rawClose()
-    }
-
-    func display() {
-        open()
-        print()
-        close()
+extension Bridge {    
+    class Display {
+        var impl: DisplayImpl
+        
+        init(impl: DisplayImpl) {
+            self.impl = impl
+        }
+        
+        func open() {
+            impl.rawOpen()
+        }
+        
+        func print() {
+            impl.rawPrint()
+        }
+        
+        func close() {
+            impl.rawClose()
+        }
+        
+        func display() {
+            open()
+            print()
+            close()
+        }
     }
 }

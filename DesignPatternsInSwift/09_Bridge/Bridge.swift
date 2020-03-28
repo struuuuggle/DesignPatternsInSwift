@@ -1,5 +1,5 @@
 //
-//  BridgeMain.swift
+//  Bridge.swift
 //  DPwithSwift
 //
 //  Created by Mikiya Abe on 2019/12/23.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct BridgeMain {
+enum Bridge {
     static func main() {
         let d1: Display = Display(impl: StringDisplayImpl(str: "Hello, Japan."))
         let d2: Display = CountDisplay(impl: StringDisplayImpl(str: "Hello, World."))

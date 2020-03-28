@@ -1,5 +1,5 @@
 //
-//  TemplateMethodMain.swift
+//  TemplateMethod.swift
 //  DesignPatternsInSwift
 //
 //  Created by Mikiya Abe on 2020/01/06.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TemplateMethodMain {
+enum TemplateMethod {
     static func main() {
         let d1 = CharDisplay(char: "H")
         let d2 = StringDisplay(str: "Hello, world.")

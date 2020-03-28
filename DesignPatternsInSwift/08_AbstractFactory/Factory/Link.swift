@@ -8,12 +8,14 @@
 
 import Foundation
 
-/// HTMLのハイパーリンクを抽象的に表現したクラス
-class Link: Item {
-    var url: String
-    
-    init(caption: String, url: String) {
-        self.url = url
-        super.init(caption: caption)
-    }
+extension AbstractFactory {
+    /// HTMLのハイパーリンクを抽象的に表現したクラス
+    class Link: Item {
+        var url: String
+        
+        init(caption: String, url: String) {
+            self.url = url
+            super.init(caption: caption)
+        }
+    }    
 }

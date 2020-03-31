@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15699F1A2433047A001A37BF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 15699F002433047A001A37BF /* README.md */; };
+		15699F1B2433047A001A37BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15699F022433047A001A37BF /* Assets.xcassets */; };
+		15699F1C2433047A001A37BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15699F032433047A001A37BF /* LaunchScreen.storyboard */; };
+		15699F1D2433047A001A37BF /* ColleagueCheckBox.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15699F062433047A001A37BF /* ColleagueCheckBox.xib */; };
+		15699F1E2433047A001A37BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F072433047A001A37BF /* ViewController.swift */; };
+		15699F1F2433047A001A37BF /* BaseMediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F082433047A001A37BF /* BaseMediator.swift */; };
+		15699F202433047A001A37BF /* ColleagueButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F092433047A001A37BF /* ColleagueButton.swift */; };
+		15699F212433047A001A37BF /* LoginFrame.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15699F0A2433047A001A37BF /* LoginFrame.xib */; };
+		15699F222433047A001A37BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15699F0B2433047A001A37BF /* Main.storyboard */; };
+		15699F232433047A001A37BF /* ColleagueCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F0D2433047A001A37BF /* ColleagueCheckBox.swift */; };
+		15699F242433047A001A37BF /* LoginFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F0E2433047A001A37BF /* LoginFrame.swift */; };
+		15699F252433047A001A37BF /* BaseColleague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F0F2433047A001A37BF /* BaseColleague.swift */; };
+		15699F262433047A001A37BF /* ColleagueTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F102433047A001A37BF /* ColleagueTextField.swift */; };
+		15699F272433047A001A37BF /* ColleagueButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15699F112433047A001A37BF /* ColleagueButton.xib */; };
+		15699F282433047A001A37BF /* ColleagueTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15699F122433047A001A37BF /* ColleagueTextField.xib */; };
+		15699F292433047A001A37BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F142433047A001A37BF /* AppDelegate.swift */; };
+		15699F2A2433047A001A37BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15699F152433047A001A37BF /* SceneDelegate.swift */; };
+		15699F2B2433047A001A37BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15699F162433047A001A37BF /* Info.plist */; };
 		15A6242A24268F480098AFA3 /* MailData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15A6242824268EB30098AFA3 /* MailData.plist */; };
 		15BF6FAF2426754A00C2E107 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FAE2426754A00C2E107 /* Facade.swift */; };
 		15BF6FB12426757900C2E107 /* HTMLWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FB02426757900C2E107 /* HTMLWriter.swift */; };
@@ -84,6 +102,16 @@
 		E6DCCCD9241E6DD200982B68 /* SpecialSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DCCCD8241E6DD200982B68 /* SpecialSupport.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		15699F182433047A001A37BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15699EFD2433047A001A37BF /* Mediator-UIKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15CBF40C2430A3D500B1E6DC;
+			remoteInfo = "Mediator-UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		6739DC7123A928EB008DB4C9 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -97,6 +125,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15699EFD2433047A001A37BF /* Mediator-UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Mediator-UIKit.xcodeproj"; sourceTree = "<group>"; };
+		15699F002433047A001A37BF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		15699F022433047A001A37BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15699F042433047A001A37BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15699F062433047A001A37BF /* ColleagueCheckBox.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColleagueCheckBox.xib; sourceTree = "<group>"; };
+		15699F072433047A001A37BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15699F082433047A001A37BF /* BaseMediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMediator.swift; sourceTree = "<group>"; };
+		15699F092433047A001A37BF /* ColleagueButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColleagueButton.swift; sourceTree = "<group>"; };
+		15699F0A2433047A001A37BF /* LoginFrame.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginFrame.xib; sourceTree = "<group>"; };
+		15699F0C2433047A001A37BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15699F0D2433047A001A37BF /* ColleagueCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColleagueCheckBox.swift; sourceTree = "<group>"; };
+		15699F0E2433047A001A37BF /* LoginFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFrame.swift; sourceTree = "<group>"; };
+		15699F0F2433047A001A37BF /* BaseColleague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseColleague.swift; sourceTree = "<group>"; };
+		15699F102433047A001A37BF /* ColleagueTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColleagueTextField.swift; sourceTree = "<group>"; };
+		15699F112433047A001A37BF /* ColleagueButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColleagueButton.xib; sourceTree = "<group>"; };
+		15699F122433047A001A37BF /* ColleagueTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColleagueTextField.xib; sourceTree = "<group>"; };
+		15699F142433047A001A37BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15699F152433047A001A37BF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15699F162433047A001A37BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15A6242824268EB30098AFA3 /* MailData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MailData.plist; sourceTree = "<group>"; };
 		15BF6FAB2426718D00C2E107 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15BF6FAE2426754A00C2E107 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
@@ -198,6 +245,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15699EFA2433047A001A37BF /* 16_Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				15699EFD2433047A001A37BF /* Mediator-UIKit.xcodeproj */,
+				15699F002433047A001A37BF /* README.md */,
+				15699F012433047A001A37BF /* Mediator-UIKit */,
+			);
+			path = 16_Mediator;
+			sourceTree = "<group>";
+		};
+		15699EFE2433047A001A37BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15699F192433047A001A37BF /* Mediator-UIKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15699F012433047A001A37BF /* Mediator-UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				15699F022433047A001A37BF /* Assets.xcassets */,
+				15699F032433047A001A37BF /* LaunchScreen.storyboard */,
+				15699F052433047A001A37BF /* View */,
+				15699F132433047A001A37BF /* Application */,
+				15699F162433047A001A37BF /* Info.plist */,
+			);
+			path = "Mediator-UIKit";
+			sourceTree = "<group>";
+		};
+		15699F052433047A001A37BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15699F062433047A001A37BF /* ColleagueCheckBox.xib */,
+				15699F072433047A001A37BF /* ViewController.swift */,
+				15699F082433047A001A37BF /* BaseMediator.swift */,
+				15699F092433047A001A37BF /* ColleagueButton.swift */,
+				15699F0A2433047A001A37BF /* LoginFrame.xib */,
+				15699F0B2433047A001A37BF /* Main.storyboard */,
+				15699F0D2433047A001A37BF /* ColleagueCheckBox.swift */,
+				15699F0E2433047A001A37BF /* LoginFrame.swift */,
+				15699F0F2433047A001A37BF /* BaseColleague.swift */,
+				15699F102433047A001A37BF /* ColleagueTextField.swift */,
+				15699F112433047A001A37BF /* ColleagueButton.xib */,
+				15699F122433047A001A37BF /* ColleagueTextField.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15699F132433047A001A37BF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				15699F142433047A001A37BF /* AppDelegate.swift */,
+				15699F152433047A001A37BF /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		15BF6FAA2426714600C2E107 /* 15_Facade */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,6 +349,7 @@
 				E6BF190C2414BC60000B98E2 /* 13_Visitor */,
 				E6DCCCCA241E61B800982B68 /* 14_ChainOfResponsibility */,
 				15BF6FAA2426714600C2E107 /* 15_Facade */,
+				15699EFA2433047A001A37BF /* 16_Mediator */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -476,6 +582,12 @@
 			mainGroup = 6739DC6A23A928EB008DB4C9;
 			productRefGroup = 6739DC7423A928EB008DB4C9 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15699EFE2433047A001A37BF /* Products */;
+					ProjectRef = 15699EFD2433047A001A37BF /* Mediator-UIKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				6739DC7223A928EB008DB4C9 /* DesignPatternsInSwift */,
@@ -483,11 +595,30 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		15699F192433047A001A37BF /* Mediator-UIKit.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Mediator-UIKit.app";
+			remoteRef = 15699F182433047A001A37BF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		15BF6FB82426882700C2E107 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15699F222433047A001A37BF /* Main.storyboard in Resources */,
+				15699F272433047A001A37BF /* ColleagueButton.xib in Resources */,
+				15699F1D2433047A001A37BF /* ColleagueCheckBox.xib in Resources */,
+				15699F212433047A001A37BF /* LoginFrame.xib in Resources */,
+				15699F1A2433047A001A37BF /* README.md in Resources */,
+				15699F1C2433047A001A37BF /* LaunchScreen.storyboard in Resources */,
+				15699F1B2433047A001A37BF /* Assets.xcassets in Resources */,
+				15699F282433047A001A37BF /* ColleagueTextField.xib in Resources */,
+				15699F2B2433047A001A37BF /* Info.plist in Resources */,
 				15A6242A24268F480098AFA3 /* MailData.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,9 +630,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15699F1E2433047A001A37BF /* ViewController.swift in Sources */,
 				CE06AE6F23F9A1B700004514 /* StrategyMain.swift in Sources */,
 				CEB5953D23F9A00C009082C9 /* Player.swift in Sources */,
 				E6DCCCD1241E64B100982B68 /* NoSupport.swift in Sources */,
+				15699F292433047A001A37BF /* AppDelegate.swift in Sources */,
+				15699F232433047A001A37BF /* ColleagueCheckBox.swift in Sources */,
 				E6DCCCD3241E64CD00982B68 /* Support.swift in Sources */,
 				CE6B1DFB23DF07D300DA1401 /* Item.swift in Sources */,
 				E6DCCCD9241E6DD200982B68 /* SpecialSupport.swift in Sources */,
@@ -528,6 +662,7 @@
 				E6BF191D2414E7A9000B98E2 /* VisitorError.swift in Sources */,
 				CEAA780623E7206800E27731 /* PrototypeProduct.swift in Sources */,
 				CE1ADB05240416E500333C1C /* Composite.swift in Sources */,
+				15699F242433047A001A37BF /* LoginFrame.swift in Sources */,
 				E6BF191B2414C66C000B98E2 /* ListVisitor.swift in Sources */,
 				E6BF19132414BF34000B98E2 /* Element.swift in Sources */,
 				6739DC8523A92979008DB4C9 /* CountDisplay.swift in Sources */,
@@ -540,6 +675,7 @@
 				CE4942DA23DF2E8C0052086B /* ListTray.swift in Sources */,
 				6739DC8623A92979008DB4C9 /* Display.swift in Sources */,
 				6739DC8723A92979008DB4C9 /* main.swift in Sources */,
+				15699F262433047A001A37BF /* ColleagueTextField.swift in Sources */,
 				CE1D746F23AFCF050070930E /* Print.swift in Sources */,
 				6739DC8823A92979008DB4C9 /* StringDisplayImpl.swift in Sources */,
 				CE9D5C2B23F2C19800AB57AF /* HTMLBuilder.swift in Sources */,
@@ -566,17 +702,40 @@
 				CEAA780423E71F5900E27731 /* Manager.swift in Sources */,
 				E6BF190F2414BD42000B98E2 /* Visitor.swift in Sources */,
 				CE1D746A23AFBFDD0070930E /* Bridge.swift in Sources */,
+				15699F202433047A001A37BF /* ColleagueButton.swift in Sources */,
 				CE33B613240BF7850008BD30 /* SideBorder.swift in Sources */,
 				CE6B1E0123DF0A3100DA1401 /* Page.swift in Sources */,
 				CE63D1C323C37C1400F908DB /* FactoryMethod.swift in Sources */,
+				15699F2A2433047A001A37BF /* SceneDelegate.swift in Sources */,
+				15699F252433047A001A37BF /* BaseColleague.swift in Sources */,
 				CEAA780823E7235E00E27731 /* MessageBox.swift in Sources */,
 				E6DCCCD5241E6BD800982B68 /* LimitSupport.swift in Sources */,
+				15699F1F2433047A001A37BF /* BaseMediator.swift in Sources */,
 				6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */,
 				CE6B1DFF23DF090700DA1401 /* Tray.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15699F032433047A001A37BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15699F042433047A001A37BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15699F0B2433047A001A37BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15699F0C2433047A001A37BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6739DC7823A928EB008DB4C9 /* Debug */ = {

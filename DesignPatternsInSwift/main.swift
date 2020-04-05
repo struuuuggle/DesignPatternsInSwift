@@ -20,4 +20,5 @@ import Foundation
 //Decorator.main()
 //Visitor.main()
 //ChainOfResponsibility.main()
-Facade.main()
+//Facade.main()
+Observer.main()

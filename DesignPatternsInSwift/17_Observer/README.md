@@ -1,4 +1,4 @@
-#  Observer
+# Observer
 状態の変化を検知する
 
 ## どんなものか
@@ -19,7 +19,10 @@ Subjectから状態が変化したことを教えてもらう。
 
 ### ConcreteObserver
 Observerを実装する役。
-サンプルコードではsDigitObserverとGraphObserverがConcrteObserverを務めた。
+サンプルコードではDigitObserverとGraphObserverがConcrteObserverを務めた。
 
 ## どんなときに使うか
 Reactive programmingには欠かせない。もう当たり前のように使っているので、ここであえてその重要性については書かない。
+
+## 実行結果
+![output.gif](https://github.com/struuuuggle/DesignPatternsInSwift/raw/master/DesignPatternsInSwift/17_Observer/output.gif)

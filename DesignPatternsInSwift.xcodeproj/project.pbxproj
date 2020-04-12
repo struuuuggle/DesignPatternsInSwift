@@ -18,6 +18,10 @@
 		15699F272433047A001A37BF /* ColleagueButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15699F112433047A001A37BF /* ColleagueButton.xib */; };
 		15699F282433047A001A37BF /* ColleagueTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15699F122433047A001A37BF /* ColleagueTextField.xib */; };
 		15699F2B2433047A001A37BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15699F162433047A001A37BF /* Info.plist */; };
+		156D11A024434AAB00F4C6F6 /* Client+Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D119F24434AAB00F4C6F6 /* Client+Memento.swift */; };
+		156D11A324434B1300F4C6F6 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D11A224434B1300F4C6F6 /* Memento.swift */; };
+		156D11A524434C8800F4C6F6 /* output.log in Resources */ = {isa = PBXBuildFile; fileRef = 156D11A424434C8800F4C6F6 /* output.log */; };
+		156D11A724434DB500F4C6F6 /* Gamer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156D11A624434DB500F4C6F6 /* Gamer.swift */; };
 		1583428E2439BCD300D4A67F /* RandomNumberGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1583428D2439BCD300D4A67F /* RandomNumberGenerator.swift */; };
 		158342902439BE6500D4A67F /* DigitObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1583428F2439BE6500D4A67F /* DigitObserver.swift */; };
 		158342922439BEEC00D4A67F /* GraphObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 158342912439BEEC00D4A67F /* GraphObserver.swift */; };
@@ -145,6 +149,11 @@
 		15699F142433047A001A37BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15699F152433047A001A37BF /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		15699F162433047A001A37BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156D119F24434AAB00F4C6F6 /* Client+Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Memento.swift"; sourceTree = "<group>"; };
+		156D11A124434AD100F4C6F6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		156D11A224434B1300F4C6F6 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		156D11A424434C8800F4C6F6 /* output.log */ = {isa = PBXFileReference; lastKnownFileType = text; path = output.log; sourceTree = "<group>"; };
+		156D11A624434DB500F4C6F6 /* Gamer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gamer.swift; sourceTree = "<group>"; };
 		1583428D2439BCD300D4A67F /* RandomNumberGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberGenerator.swift; sourceTree = "<group>"; };
 		1583428F2439BE6500D4A67F /* DigitObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitObserver.swift; sourceTree = "<group>"; };
 		158342912439BEEC00D4A67F /* GraphObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphObserver.swift; sourceTree = "<group>"; };
@@ -324,6 +333,18 @@
 			path = Application;
 			sourceTree = "<group>";
 		};
+		156D119D24434A9500F4C6F6 /* 18_Memento */ = {
+			isa = PBXGroup;
+			children = (
+				156D119F24434AAB00F4C6F6 /* Client+Memento.swift */,
+				156D11A124434AD100F4C6F6 /* README.md */,
+				156D11A224434B1300F4C6F6 /* Memento.swift */,
+				156D11A424434C8800F4C6F6 /* output.log */,
+				156D11A624434DB500F4C6F6 /* Gamer.swift */,
+			);
+			path = 18_Memento;
+			sourceTree = "<group>";
+		};
 		15BF6FAA2426714600C2E107 /* 15_Facade */ = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +393,7 @@
 				15BF6FAA2426714600C2E107 /* 15_Facade */,
 				15699EFA2433047A001A37BF /* 16_Mediator */,
 				1524B5EB2439B15D002DB159 /* 17_Observer */,
+				156D119D24434A9500F4C6F6 /* 18_Memento */,
 			);
 			path = DesignPatternsInSwift;
 			sourceTree = "<group>";
@@ -639,6 +661,7 @@
 				15699F1A2433047A001A37BF /* README.md in Resources */,
 				15AD302B243B641C00D88BDF /* output.mov in Resources */,
 				15699F1C2433047A001A37BF /* LaunchScreen.storyboard in Resources */,
+				156D11A524434C8800F4C6F6 /* output.log in Resources */,
 				15699F1B2433047A001A37BF /* Assets.xcassets in Resources */,
 				15699F282433047A001A37BF /* ColleagueTextField.xib in Resources */,
 				15699F2B2433047A001A37BF /* Info.plist in Resources */,
@@ -668,7 +691,9 @@
 				CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */,
 				CE6B1E0523DF184100DA1401 /* AbstractFactory.swift in Sources */,
 				15BF6FB12426757900C2E107 /* HTMLWriter.swift in Sources */,
+				156D11A024434AAB00F4C6F6 /* Client+Memento.swift in Sources */,
 				CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */,
+				156D11A724434DB500F4C6F6 /* Gamer.swift in Sources */,
 				CE63D1BD23C374C000F908DB /* FactoryProtocol.swift in Sources */,
 				158342942439C09300D4A67F /* Client+Observer.swift in Sources */,
 				1524B5EE2439B258002DB159 /* BaseObserver.swift in Sources */,
@@ -733,6 +758,7 @@
 				E6DCCCD5241E6BD800982B68 /* LimitSupport.swift in Sources */,
 				6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */,
 				CE6B1DFF23DF090700DA1401 /* Tray.swift in Sources */,
+				156D11A324434B1300F4C6F6 /* Memento.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

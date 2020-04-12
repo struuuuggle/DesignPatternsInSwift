@@ -8,6 +8,8 @@
 
 import Foundation
 
+enum Client {}
+
 //Adapter.main()
 //TemplateMethod.main()
 //FactoryMethod.main()
@@ -21,4 +23,5 @@ import Foundation
 //Visitor.main()
 //ChainOfResponsibility.main()
 //Facade.main()
-Observer.main()
+//Observer.main()
+Client.memento()

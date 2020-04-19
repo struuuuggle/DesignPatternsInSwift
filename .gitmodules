@@ -1,3 +1,6 @@
 [submodule "DesignPatternsInSwift/16_Mediator"]
 	path = DesignPatternsInSwift/16_Mediator
 	url = git@github.com:struuuuggle/Mediator-UIKit.git
+[submodule "DesignPatternsInSwift/19_State"]
+	path = DesignPatternsInSwift/19_State
+	url = git@github.com:struuuuggle/State-UIKit.git

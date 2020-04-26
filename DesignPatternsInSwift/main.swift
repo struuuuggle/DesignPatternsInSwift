@@ -24,4 +24,5 @@ enum Client {}
 //ChainOfResponsibility.main()
 //Facade.main()
 //Observer.main()
-Client.memento()
+//Client.memento()
+Client.flyweight(numberSequence: "1212123")

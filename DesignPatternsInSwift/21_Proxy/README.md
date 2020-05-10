@@ -1,6 +1,8 @@
 # Proxy
 必要になってから作る 
 
+![UML](https://raw.githubusercontent.com/struuuuggle/DesignPatternsInSwift/master/img/Proxy.jpg)
+
 ## どんなものか
 Proxy  = 「代理人」。
 本人でなくともできる仕事を代理人におこなわせる。

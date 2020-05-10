@@ -25,4 +25,5 @@ enum Client {}
 //Facade.main()
 //Observer.main()
 //Client.memento()
-Client.flyweight(numberSequence: "1212123")
+//Client.flyweight(numberSequence: "1212123")
+Client.proxy()

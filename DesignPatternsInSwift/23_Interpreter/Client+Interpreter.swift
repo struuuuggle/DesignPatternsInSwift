@@ -27,4 +27,19 @@ extension Client {
       print(e)
     }
   }
+
+  /**
+   出力結果:
+   
+   text: "program end"
+   node = "[program []]"
+   text: "program go end"
+   node = "[program [go]]"
+   text: "program go right go right go right end"
+   node = "[program [go, right, go, right, go, right]]"
+   text: "program repeat 4 go right end end"
+   node = "[program [[repeat 4 [go, right]]]]"
+   text: "program repeat 4 go right go left end right end end"
+   node = "[program [[repeat 4 [go, right, go, left]], right]]"
+   */
 }

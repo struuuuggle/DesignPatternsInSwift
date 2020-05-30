@@ -4,9 +4,6 @@
 [submodule "DesignPatternsInSwift/19_State"]
 	path = DesignPatternsInSwift/19_State
 	url = git@github.com:struuuuggle/State-UIKit.git
-[submodule "DesignPatternsinswift/22_Command"]
-  path = DesignPatternsinswift/22_Command
-  url = git@github.com:struuuuggle/Command-UIKit.git
 [submodule "DesignPatternsInSwift/22_Command"]
 	path = DesignPatternsInSwift/22_Command
 	url = git@github.com:struuuuggle/Command-UIKit.git

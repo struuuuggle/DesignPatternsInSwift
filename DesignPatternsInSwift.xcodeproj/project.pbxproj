@@ -75,6 +75,12 @@
 		15BF6FB5242679A700C2E107 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FB4242679A700C2E107 /* Database.swift */; };
 		15BF6FB7242680E700C2E107 /* PageMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF6FB6242680E700C2E107 /* PageMaker.swift */; };
 		15CEF2A7244CB12D0055D5DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 15CEF291244CB12C0055D5DD /* README.md */; };
+		15E2810C248BDC2700E731A3 /* Aggregate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2810B248BDC2700E731A3 /* Aggregate.swift */; };
+		15E2810E248BDC5900E731A3 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2810D248BDC5900E731A3 /* Iterator.swift */; };
+		15E28110248BDE1800E731A3 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E2810F248BDE1800E731A3 /* Book.swift */; };
+		15E28112248BDE7400E731A3 /* BookShelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E28111248BDE7400E731A3 /* BookShelf.swift */; };
+		15E28114248BE1F400E731A3 /* BookShelfIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E28113248BE1F400E731A3 /* BookShelfIterator.swift */; };
+		15E28116248BE3DF00E731A3 /* Client+Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E28115248BE3DF00E731A3 /* Client+Iterator.swift */; };
 		15F5226F245342CF00C12389 /* BigChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F5226E245342CF00C12389 /* BigChar.swift */; };
 		15F52271245343A700C12389 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15F52270245343A700C12389 /* Flyweight.swift */; };
 		6739DC8423A92979008DB4C9 /* DisplayImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6739DC7F23A92979008DB4C9 /* DisplayImpl.swift */; };
@@ -277,6 +283,12 @@
 		15CEF291244CB12C0055D5DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15CEF292244CB12C0055D5DD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		15CEF293244CB12C0055D5DD /* State-UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "State-UIKit.xcodeproj"; sourceTree = "<group>"; };
+		15E2810B248BDC2700E731A3 /* Aggregate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aggregate.swift; sourceTree = "<group>"; };
+		15E2810D248BDC5900E731A3 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		15E2810F248BDE1800E731A3 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		15E28111248BDE7400E731A3 /* BookShelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelf.swift; sourceTree = "<group>"; };
+		15E28113248BE1F400E731A3 /* BookShelfIterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookShelfIterator.swift; sourceTree = "<group>"; };
+		15E28115248BE3DF00E731A3 /* Client+Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Client+Iterator.swift"; sourceTree = "<group>"; };
 		15F5226D245342B300C12389 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15F5226E245342CF00C12389 /* BigChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BigChar.swift; sourceTree = "<group>"; };
 		15F52270245343A700C12389 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
@@ -624,6 +636,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		15E28107248BDBDF00E731A3 /* 01_Iterator */ = {
+			isa = PBXGroup;
+			children = (
+				15E2810B248BDC2700E731A3 /* Aggregate.swift */,
+				15E2810D248BDC5900E731A3 /* Iterator.swift */,
+				15E2810F248BDE1800E731A3 /* Book.swift */,
+				15E28111248BDE7400E731A3 /* BookShelf.swift */,
+				15E28113248BE1F400E731A3 /* BookShelfIterator.swift */,
+				15E28115248BE3DF00E731A3 /* Client+Iterator.swift */,
+			);
+			path = 01_Iterator;
+			sourceTree = "<group>";
+		};
 		15F5226C245342B300C12389 /* 20_Flyweight */ = {
 			isa = PBXGroup;
 			children = (
@@ -659,6 +684,7 @@
 			isa = PBXGroup;
 			children = (
 				6739DC8223A92979008DB4C9 /* main.swift */,
+				15E28107248BDBDF00E731A3 /* 01_Iterator */,
 				CE1D746B23AFCE240070930E /* 02_Adapter */,
 				CE46D12823C231730059BF37 /* 03_TemplateMethod */,
 				CE63D1B823C3742800F908DB /* 04_FactoryMethod */,
@@ -1049,6 +1075,7 @@
 				158342902439BE6500D4A67F /* DigitObserver.swift in Sources */,
 				CE06AE6F23F9A1B700004514 /* StrategyMain.swift in Sources */,
 				CEB5953D23F9A00C009082C9 /* Player.swift in Sources */,
+				15E2810E248BDC5900E731A3 /* Iterator.swift in Sources */,
 				E6DCCCD1241E64B100982B68 /* NoSupport.swift in Sources */,
 				15F5226F245342CF00C12389 /* BigChar.swift in Sources */,
 				E6DCCCD3241E64CD00982B68 /* Support.swift in Sources */,
@@ -1057,9 +1084,11 @@
 				E6DCCCD9241E6DD200982B68 /* SpecialSupport.swift in Sources */,
 				CE9D5C2D23F2C70000AB57AF /* BuilderMain.swift in Sources */,
 				15A98BBF248013160002258C /* CommandNode.swift in Sources */,
+				15E28110248BDE1800E731A3 /* Book.swift in Sources */,
 				CEB5953723F99967009082C9 /* Strategy.swift in Sources */,
 				E6DCCCCD241E625600982B68 /* Trouble.swift in Sources */,
 				CE33B611240BF4310008BD30 /* Border.swift in Sources */,
+				15E28116248BE3DF00E731A3 /* Client+Iterator.swift in Sources */,
 				151D913424684B41007A3C59 /* Printer.swift in Sources */,
 				CEB5953923F99999009082C9 /* WinningStrategy.swift in Sources */,
 				CEB5953B23F99C57009082C9 /* ProbStrategy.swift in Sources */,
@@ -1067,6 +1096,7 @@
 				15BF6FB12426757900C2E107 /* HTMLWriter.swift in Sources */,
 				15A98BBB24800E530002258C /* CommandListNode.swift in Sources */,
 				156D11A024434AAB00F4C6F6 /* Client+Memento.swift in Sources */,
+				15E28112248BDE7400E731A3 /* BookShelf.swift in Sources */,
 				CE9D5C2923F2BF9400AB57AF /* TextBuilder.swift in Sources */,
 				15A98BB924800C490002258C /* ProgramNode.swift in Sources */,
 				156D11A724434DB500F4C6F6 /* Gamer.swift in Sources */,
@@ -1074,6 +1104,7 @@
 				158342942439C09300D4A67F /* Client+Observer.swift in Sources */,
 				1524B5EE2439B258002DB159 /* BaseObserver.swift in Sources */,
 				E6DCCCD7241E6CE100982B68 /* OddSupport.swift in Sources */,
+				15E28114248BE1F400E731A3 /* BookShelfIterator.swift in Sources */,
 				CEAA780223E71F1B00E27731 /* Prototype.swift in Sources */,
 				CE46D12D23C232670059BF37 /* CharDisplay.swift in Sources */,
 				CE46D13123C2344E0059BF37 /* TemplateMethod.swift in Sources */,
@@ -1117,6 +1148,7 @@
 				CE33B619240BFDB70008BD30 /* Decorator.swift in Sources */,
 				E6BF19172414C29B000B98E2 /* VisitorFile.swift in Sources */,
 				CE33B60F240BF0CD0008BD30 /* Decorator+StringDisplay.swift in Sources */,
+				15E2810C248BDC2700E731A3 /* Aggregate.swift in Sources */,
 				CE4942DC23DF36280052086B /* ListPage.swift in Sources */,
 				CE1D747323AFCFC00070930E /* Adapter.swift in Sources */,
 				CE6B1E0923DF22B900DA1401 /* ListLink.swift in Sources */,

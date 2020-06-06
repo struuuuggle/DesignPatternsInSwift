@@ -10,6 +10,7 @@ import Foundation
 
 enum Client {}
 
+Client.iterator()
 //Adapter.main()
 //TemplateMethod.main()
 //FactoryMethod.main()
@@ -27,4 +28,4 @@ enum Client {}
 //Client.memento()
 //Client.flyweight(numberSequence: "1212123")
 //Client.proxy()
-Client.interpreter()
+//Client.interpreter()
